@@ -1,0 +1,128 @@
+facebook:
+  label: Facebook
+  permalink: /facebook
+  description: Facebook tag description
+
+hello:
+  label: Hello
+  permalink: /hello
+  description: Hello tag description
+
+docusaurus:
+  label: Docusaurus
+  permalink: /docusaurus
+  description: Docusaurus tag description
+
+hola:
+  label: Hola
+  permalink: /hola
+  description: Hola tag description
+
+cap-nhat-hang-thang:
+  label: Cập nhật hàng tháng
+  description: Các bài viết về cập nhật tính năng hàng tháng của JEGA.
+  permalink: /tags/cap-nhat-hang-thang
+feature-update:
+  label: Feature Update
+  description: Articles about JEGA's monthly feature updates.
+  permalink: /tags/feature-update
+thang-4-2025:
+  label: Tháng 4 2025
+  description: Các cập nhật trong tháng 4 năm 2025.
+  permalink: /tags/thang-4-2025
+thang-5-2025:
+  label: Tháng 5 2025
+  description: Các cập nhật trong tháng 5 năm 2025.
+  permalink: /tags/thang-5-2025
+tom-tat:
+  label: Tóm tắt
+  description: Các bài viết tóm tắt.
+  permalink: /tags/tom-tat
+monthly-update:
+  label: Monthly Update
+  description: JEGA's monthly feature updates.
+  permalink: /tags/monthly-update
+april-2025:
+  label: April 2025
+  description: Updates for April 2025.
+  permalink: /tags/april-2025
+may-2025:
+  label: May 2025
+  description: Updates for May 2025.
+  permalink: /tags/may-2025
+bo-suu-tap:
+  label: Bộ Sưu Tập
+  description: Khám phá các bộ sưu tập thiết kế từ JEGA.
+  permalink: /tags/bo-suu-tap
+tong-quan:
+  label: Tổng Quan
+  description: Các bài viết tổng quan.
+  permalink: /tags/tong-quan
+bst-archi:
+  label: BST Archi
+  description: Thông tin về Bộ Sưu Tập Archi.
+  permalink: /tags/bst-archi
+bst-aurora:
+  label: BST Aurora
+  description: Thông tin về Bộ Sưu Tập Aurora.
+  permalink: /tags/bst-aurora
+bst-bliss:
+  label: BST Bliss
+  description: Thông tin về Bộ Sưu Tập Bliss.
+  permalink: /tags/bst-bliss
+bst-campi:
+  label: BST Campi
+  description: Thông tin về Bộ Sưu Tập Campi.
+  permalink: /tags/bst-campi
+bst-chantilly:
+  label: BST Chantilly
+  description: Thông tin về Bộ Sưu Tập Chantilly.
+  permalink: /tags/bst-chantilly
+bst-eden:
+  label: BST Eden
+  description: Thông tin về Bộ Sưu Tập Eden.
+  permalink: /tags/bst-eden
+bst-estuary:
+  label: BST Estuary
+  description: Thông tin về Bộ Sưu Tập Estuary.
+  permalink: /tags/bst-estuary
+bst-grove:
+  label: BST Grove
+  description: Thông tin về Bộ Sưu Tập Grove.
+  permalink: /tags/bst-grove
+bst-harmony:
+  label: BST Harmony
+  description: Thông tin về Bộ Sưu Tập Harmony.
+  permalink: /tags/bst-harmony
+bst-luma:
+  label: BST Luma
+  description: Thông tin về Bộ Sưu Tập Luma.
+  permalink: /tags/bst-luma
+bst-lumen:
+  label: BST Lumen
+  description: Thông tin về Bộ Sưu Tập Lumen.
+  permalink: /tags/bst-lumen
+bst-macchiato:
+  label: BST Macchiato
+  description: Thông tin về Bộ Sưu Tập Macchiato.
+  permalink: /tags/bst-macchiato
+bst-phantom:
+  label: BST Phantom
+  description: Thông tin về Bộ Sưu Tập Phantom.
+  permalink: /tags/bst-phantom
+bst-sierra:
+  label: BST Sierra
+  description: Thông tin về Bộ Sưu Tập Sierra.
+  permalink: /tags/bst-sierra
+bst-temporal:
+  label: BST Temporal
+  description: Thông tin về Bộ Sưu Tập Temporal.
+  permalink: /tags/bst-temporal
+bst-van-der-rohe:
+  label: BST Van der Rohe
+  description: Thông tin về Bộ Sưu Tập Van der Rohe.
+  permalink: /tags/bst-van-der-rohe
+bst-vista:
+  label: BST Vista
+  description: Thông tin về Bộ Sưu Tập Vista.
+  permalink: /tags/bst-vista

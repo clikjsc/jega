@@ -1,0 +1,162 @@
+{
+  "version.label": {
+    "message": "Current",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.essentials": {
+    "message": "Essentials",
+    "description": "The label for category essentials in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.gioi-thieu-phan-mem": {
+    "message": "Software Introduction",
+    "description": "The label for category gioi-thieu-phan-mem in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.huong-dan-nguoi-dung-moi": {
+    "message": "New User Guides",
+    "description": "The label for category huong-dan-nguoi-dung-moi in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.huong-dan-su-dung-website": {
+    "message": "Website Usage Guides",
+    "description": "The label for category huong-dan-su-dung-website in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.jega-collection": {
+    "message": "JEGA Collection",
+    "description": "The label for category jega-collection in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.snippets": {
+    "message": "Snippets",
+    "description": "The label for category snippets in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tài liệu hướng dẫn JEGA AiHouse (Tiếng Việt)": {
+    "message": "JEGA AiHouse Tutorials (Vietnamese)",
+    "description": "The label for category Tài liệu hướng dẫn JEGA AiHouse (Tiếng Việt) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.basic-operations": {
+    "message": "Basic Operations",
+    "description": "The label for category basic-operations in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.cap-nhat-hang-thang": {
+    "message": "Monthly Updates",
+    "description": "The label for category cap-nhat-hang-thang in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.customization": {
+    "message": "Customization",
+    "description": "The label for category customization in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.design-circle": {
+    "message": "Design Circle",
+    "description": "The label for category design-circle in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.floor-plan": {
+    "message": "Floor Plan",
+    "description": "The label for category floor-plan in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ai-function": {
+    "message": "AI Functions",
+    "description": "The label for category ai-function in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ai-function-floor-plan": {
+    "message": "AI Function - Floor Plan",
+    "description": "The label for category ai-function-floor-plan in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.doors-and-windows": {
+    "message": "Doors and Windows",
+    "description": "The label for category doors-and-windows in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.draw-walls": {
+    "message": "Draw Walls",
+    "description": "The label for category draw-walls in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.structural-member": {
+    "message": "Structural Member",
+    "description": "The label for category structural-member in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.furni-ai": {
+    "message": "Furni AI",
+    "description": "The label for category furni-ai in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.hoi-dap": {
+    "message": "Q&A",
+    "description": "The label for category hoi-dap in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ket-xuat": {
+    "message": "Rendering",
+    "description": "The label for category ket-xuat in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.ve-ai": {
+    "message": "AI Drawing",
+    "description": "The label for category ve-ai in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.online-training": {
+    "message": "Online Training",
+    "description": "The label for category online-training in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.phan-mem-nang-cao": {
+    "message": "Advanced Software",
+    "description": "The label for category phan-mem-nang-cao in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.thao-tac-co-ban": {
+    "message": "Basic Operations",
+    "description": "The label for category thao-tac-co-ban in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.thiet-ke-xay-dung": {
+    "message": "Construction Design",
+    "description": "The label for category thiet-ke-xay-dung in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.tong-quan": {
+    "message": "Overview",
+    "description": "The label for category tong-quan in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.tuy-chinh-noi-that": {
+    "message": "Furniture Customization",
+    "description": "The label for category tuy-chinh-noi-that in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.vat-lieu-thiet-ke": {
+    "message": "Design Materials",
+    "description": "The label for category vat-lieu-thiet-ke in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Trung Tâm Hướng Dẫn JEGA": {
+    "message": "JEGA Tutorial Center",
+    "description": "The label for category Trung Tâm Hướng Dẫn JEGA in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Trung Tâm Hướng Dẫn JEGA.link.generated-index.title": {
+    "message": "JEGA Tutorial Center",
+    "description": "The generated-index page title for category Trung Tâm Hướng Dẫn JEGA in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Trung Tâm Hướng Dẫn JEGA.link.generated-index.description": {
+    "message": "Explore detailed guides on how to use JEGA software, from basic to advanced.",
+    "description": "The generated-index page description for category Trung Tâm Hướng Dẫn JEGA in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Bộ Sưu Tập JEGA": {
+    "message": "JEGA Collections",
+    "description": "The label for category Bộ Sưu Tập JEGA in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Bộ Sưu Tập JEGA.link.generated-index.title": {
+    "message": "JEGA Collections",
+    "description": "The generated-index page title for category Bộ Sưu Tập JEGA in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Bộ Sưu Tập JEGA.link.generated-index.description": {
+    "message": "Explore JEGA's sample design collections.",
+    "description": "The generated-index page description for category Bộ Sưu Tập JEGA in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tài Liệu Thiết Yếu": {
+    "message": "Essential Documents",
+    "description": "The label for category Tài Liệu Thiết Yếu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tài Liệu Thiết Yếu.link.generated-index.title": {
+    "message": "Essential Documents",
+    "description": "The generated-index page title for category Tài Liệu Thiết Yếu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tài Liệu Thiết Yếu.link.generated-index.description": {
+    "message": "Essential documents and basic guides.",
+    "description": "The generated-index page description for category Tài Liệu Thiết Yếu in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Hướng Dẫn Chung": {
+    "message": "General Guides",
+    "description": "The label for category Hướng Dẫn Chung in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Tài Liệu Kỹ Thuật & Quy Trình": {
+    "message": "Technical Docs & Processes",
+    "description": "The label for category Tài Liệu Kỹ Thuật & Quy Trình in sidebar tutorialSidebar"
+  }
+}

@@ -1,0 +1,94 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #c00000; /* JEGA Red */
+  --ifm-color-primary-dark: #ad0000;
+  --ifm-color-primary-darker: #a10000;
+  --ifm-color-primary-darkest: #850000;
+  --ifm-color-primary-light: #d30000;
+  --ifm-color-primary-lighter: #da0000;
+  --ifm-color-primary-lightest: #e71e1e;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #ff4d4d; /* Lighter JEGA Red for dark mode */
+  --ifm-color-primary-dark: #ff3333;
+  --ifm-color-primary-darker: #ff2626;
+  --ifm-color-primary-darkest: #cc0000;
+  --ifm-color-primary-light: #ff6666;
+  --ifm-color-primary-lighter: #ff7373;
+  --ifm-color-primary-lightest: #ff9999;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+.info-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.info-card {
+  display: block;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  border-radius: var(--ifm-card-border-radius);
+  padding: 1.5rem;
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+  transition: border-color 0.3s, box-shadow 0.3s;
+  flex: 1 1 calc(50% - 1rem); /* Mặc định 2 cột, có thể điều chỉnh */
+  box-shadow: var(--ifm-global-shadow-lw);
+}
+
+.info-card:hover {
+  border-color: var(--ifm-color-primary);
+  box-shadow: var(--ifm-global-shadow-md);
+  text-decoration: none;
+  color: var(--ifm-font-color-base);
+}
+
+.info-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.25rem;
+  color: var(--ifm-color-primary);
+}
+
+.info-card p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
+  color: var(--ifm-font-color-secondary);
+}
+
+/* Responsive cho 1 cột trên màn hình nhỏ */
+@media (max-width: 768px) {
+  .info-card {
+    flex-basis: 100%;
+  }
+}
+
+.youtube-video-container {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.youtube-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
