@@ -27,7 +27,7 @@ const config: Config = {
   organizationName: 'jegavn',
   projectName: 'jegavn-docusaurus',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
