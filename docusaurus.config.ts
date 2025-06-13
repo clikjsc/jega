@@ -5,14 +5,16 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'JEGA Việt Nam Docs',
-  tagline: 'Tài liệu hướng dẫn sử dụng phần mềm JEGA và các giải pháp liên quan',
+  title: 'JEGA Việt Nam',
+  tagline: 'Trung tâm Hỗ trợ JEGA - Khám phá, học hỏi và làm chủ phần mềm thiết kế nội thất AI JEGA.',
   favicon: 'img/logo Jega favicon.png',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
+  /* // Temporarily commented out
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
   },
+  */
 
   // Set the production url of your site here
   url: 'https://docs.jega.vn',
@@ -72,65 +74,122 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/logo Jega.png',
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+    },
     navbar: {
-      title: 'JEGA Docs',
+      title: '', // Removed title to only show logo
+      hideOnScroll: true,
       logo: {
         alt: 'JEGA Logo',
         src: 'img/logo Jega.png',
         srcDark: 'img/logo Jega dark theme.png',
       },
+      // style: 'primary', // Removed to allow custom CSS to fully control navbar style
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'tutorialSidebar', // This assumes 'tutorialSidebar' is your main/default sidebar
           position: 'left',
-          label: 'Tài Liệu',
+          label: 'Trung tâm hướng dẫn',
+          className: 'navbar-item-docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'}, // Kích hoạt lại Blog
-        { 
+        {
+          to: '/blog/tags/online-training', // Updated to point to a blog tag/category
+          label: 'Online Training',
+          position: 'left',
+          className: 'navbar-item-training',
+        },
+        {
+          to: '/blog/tags/jega-collection', // Updated to point to a blog tag/category
+          label: 'Jega Collection',
+          position: 'left',
+          className: 'navbar-item-collection',
+        },
+        {
           type: 'localeDropdown',
           position: 'right',
+          className: 'navbar-item-locale',
         },
-        // {
-        //   href: 'https://github.com/jegavn/jegavn-docusaurus',
-        //   label: 'GitHub',
-        //   position: 'right',
-        // },
+        {
+          href: 'mailto:support@jega.vn',
+          label: 'Hỗ trợ',
+          position: 'right',
+          className: 'navbar-item-support',
+        },
+        {
+          href: 'https://zcloud-work.i72.com/main/login',
+          label: 'Đăng nhập',
+          position: 'right',
+          className: 'navbar-item-login button', // Simplified for custom styling
+        },
       ],
     },
     footer: {
       style: 'dark',
       links: [
         {
-          title: 'Tài Liệu',
+          title: 'Docs',
           items: [
             {
-              label: 'Trung Tâm Hướng Dẫn',
-              to: '/docs/',
+              label: 'Trung tâm hướng dẫn',
+              to: '/docs/trung-tam-huong-dan/tong-quan/gioi-thieu',
+            },
+            {
+              label: 'Online Training',
+              to: '/docs/trung-tam-huong-dan/online-training/hoc-jega-qua-video-truc-quan',
+            },
+            {
+              label: 'Jega Collection',
+              to: '/docs/jega-collection',
             },
           ],
         },
         {
-          title: 'Cộng Đồng',
+          title: 'Cộng đồng',
           items: [
             {
               label: 'Facebook',
-              href: 'https://www.facebook.com/jegavn',
+              href: 'https://www.facebook.com/jega.vn',
+            },
+            {
+              label: 'YouTube',
+              href: 'https://www.youtube.com/@JEGAVN',
+            },
+            {
+              label: 'Zalo Group',
+              href: 'https://zalo.me/g/aksslx057',
             },
           ],
         },
         {
           title: 'Khác',
           items: [
-            { label: 'Blog', to: '/blog' }, // Kích hoạt lại Blog trong footer
             {
-              label: 'Trang Chủ JEGA',
+              label: 'Blog',
+              href: 'https://jega.vn/vi/bo-suu-tap',
+            },
+            {
+              label: 'Website JEGA',
               href: 'https://jega.vn',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} JEGA Việt Nam. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} JEGA Việt Nam.`,
+      logo: {
+        alt: 'JEGA Logo',
+        src: 'img/logo Jega dark theme.png',
+        width: 120,
+      },
+    },
+    docs: {
+      sidebar: {
+        hideable: true,
+        autoCollapseCategories: true,
+      }
     },
     prism: {
       theme: prismThemes.github,

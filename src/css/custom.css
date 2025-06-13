@@ -6,89 +6,414 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #c00000; /* JEGA Red */
-  --ifm-color-primary-dark: #ad0000;
-  --ifm-color-primary-darker: #a10000;
-  --ifm-color-primary-darkest: #850000;
-  --ifm-color-primary-light: #d30000;
-  --ifm-color-primary-lighter: #da0000;
-  --ifm-color-primary-lightest: #e71e1e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* JEGA Red Primary Color */
+  --ifm-color-primary: #e8403d;
+  --ifm-color-primary-dark: #d0322f; /* Slightly darker */
+  --ifm-color-primary-darker: #b82a27; /* Darker */
+  --ifm-color-primary-darkest: #a0221f; /* Darkest */
+  --ifm-color-primary-light: #ec5d5a; /* Slightly lighter */
+  --ifm-color-primary-lighter: #f07976; /* Lighter */
+  --ifm-color-primary-lightest: #f49593; /* Lightest */
+
+  /* JEGA Button Blue */
+  --jega-button-blue-primary: #0D1C53;
+  --jega-button-blue-light: #2E4DB8; /* For hover/active states */
+
+  /* Navbar colors - White/Light Gray background */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-link-color: var(--ifm-font-color-base);
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+  --ifm-navbar-link-active-color: var(--ifm-color-primary);
+  --ifm-navbar-search-input-color: var(--ifm-font-color-base);
+  --ifm-navbar-search-input-background-color: #f0f2f5; /* Light gray for search */
+  --ifm-navbar-border-bottom-color: #e2e8f0; /* Light border for navbar */
+
+
+  --ifm-background-color: #ffffff; /* Page background to white */
+  --ifm-toc-border-color: #e2e8f0; 
+  
+  --doc-sidebar-width: 300px !important; 
+  --ifm-font-color-base: #374151; 
+  --ifm-heading-color: #111827; 
+  --ifm-menu-color: var(--ifm-font-color-base); 
+
+  /* Footer colors */
+  --ifm-footer-background-color: #ffffff; /* White/Light Gray footer */
+  --ifm-footer-link-color: var(--ifm-font-color-secondary);
+  --ifm-footer-link-hover-color: var(--ifm-color-primary);
+  --ifm-footer-title-color: var(--ifm-heading-color);
+  --ifm-footer-color: var(--ifm-font-color-base);
+  --ifm-footer-border-top-color: #e2e8f0; /* Light border for footer */
+
+
+  /* Custom shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+  /* Emphasis colors for blockquotes, inline code etc. */
+  --ifm-color-emphasis-100: #fef2f2; /* Very light red for light theme */
+  --ifm-color-emphasis-200: #fee2e2;
+  --ifm-color-emphasis-300: #fecaca;
+  --ifm-color-emphasis-700: #b91c1c; /* Dark red for text on light red bg */
+  --ifm-color-emphasis-800: #991b1b;
+  --ifm-color-emphasis-900: #7f1d1d;
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #ff4d4d; /* Lighter JEGA Red for dark mode */
-  --ifm-color-primary-dark: #ff3333;
-  --ifm-color-primary-darker: #ff2626;
-  --ifm-color-primary-darkest: #cc0000;
-  --ifm-color-primary-light: #ff6666;
-  --ifm-color-primary-lighter: #ff7373;
-  --ifm-color-primary-lightest: #ff9999;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  /* JEGA Red Primary Color - Dark Theme */
+  --ifm-color-primary: #ec5d5a; /* Lighter red for dark theme */
+  --ifm-color-primary-dark: #e8403d;
+  --ifm-color-primary-darker: #d0322f;
+  --ifm-color-primary-darkest: #b82a27;
+  --ifm-color-primary-light: #f07976;
+  --ifm-color-primary-lighter: #f49593;
+  --ifm-color-primary-lightest: #f8b1af;
+
+  /* JEGA Button Blue - Dark Theme */
+  --jega-button-blue-primary: #2E4DB8; /* Lighter blue for dark theme buttons */
+  --jega-button-blue-light: #5271dd;   /* Even lighter for hover/active */
+  
+  /* For dark theme, navbar will also use the primary red, but text needs to be light.
+     --ifm-color-primary in dark theme is #ec5d5a (lighter red).
+  */
+  /* Navbar colors - Dark Theme */
+  --ifm-navbar-background-color: #111827; /* Darker background for dark theme navbar */
+  --ifm-navbar-link-color: #d1d5db; /* Light text for dark theme */
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary); /* Primary color on hover */
+  --ifm-navbar-link-active-color: var(--ifm-color-primary); /* Primary color for active */
+  --ifm-navbar-search-input-color: #d1d5db;
+  --ifm-navbar-search-input-background-color: #1f2937; /* Darker search bg */
+  --ifm-navbar-border-bottom-color: #374151; /* Darker border for dark theme navbar */
+
+  --ifm-background-color: #030712; /* Very dark page background */
+  --ifm-toc-border-color: #374151; 
+  
+  --ifm-menu-color: #d1d5db; 
+  --ifm-font-color-base: #d1d5db; 
+  --ifm-heading-color: #f9fafb; 
+
+  /* Footer colors - Dark Theme */
+  --ifm-footer-background-color: #111827; /* Darker footer for dark theme */
+  --ifm-footer-link-color: #9ca3af;
+  --ifm-footer-link-hover-color: var(--ifm-color-primary);
+  --ifm-footer-title-color: #f9fafb;
+  --ifm-footer-color: #d1d5db;
+  --ifm-footer-border-top-color: #374151; /* Darker border for dark theme footer */
+
+  /* Emphasis colors for dark theme */
+  --ifm-color-emphasis-100: #312828; /* Darker, muted red for bg */
+  --ifm-color-emphasis-200: #492d2d;
+  --ifm-color-emphasis-300: #7f1d1d; 
+  --ifm-color-emphasis-700: #fbcaca; /* Light red for text on dark red bg */
+  --ifm-color-emphasis-800: #fde8e8;
+  --ifm-color-emphasis-900: #fee2e2;
 }
 
-.info-card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 2rem;
+/* Navbar styling to match sample image */
+.navbar {
+  background: var(--ifm-navbar-background-color) !important;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  box-shadow: var(--shadow-sm);
+  border-bottom: 1px solid var(--ifm-navbar-border-bottom-color) !important;
+  padding: 0 1rem;
 }
 
-.info-card {
-  display: block;
-  border: 1px solid var(--ifm-color-emphasis-300);
-  border-radius: var(--ifm-card-border-radius);
-  padding: 1.5rem;
-  text-decoration: none;
-  color: var(--ifm-font-color-base);
-  transition: border-color 0.3s, box-shadow 0.3s;
-  flex: 1 1 calc(50% - 1rem); /* Mặc định 2 cột, có thể điều chỉnh */
-  box-shadow: var(--ifm-global-shadow-lw);
+.navbar__title {
+  font-weight: 700;
+  color: var(--ifm-navbar-link-color) !important;
 }
 
-.info-card:hover {
-  border-color: var(--ifm-color-primary);
-  box-shadow: var(--ifm-global-shadow-md);
-  text-decoration: none;
-  color: var(--ifm-font-color-base);
+.navbar__item {
+  font-size: 0.95rem;
 }
 
-.info-card h3 {
-  margin-top: 0;
-  margin-bottom: 0.75rem;
-  font-size: 1.25rem;
+.navbar__link {
+  font-weight: 500;
+  color: var(--ifm-navbar-link-color) !important;
+}
+.navbar__link:hover {
+  color: var(--ifm-navbar-link-hover-color) !important;
+}
+.navbar__link--active {
+  color: var(--ifm-navbar-link-active-color) !important;
+  font-weight: 700;
+}
+
+/* Ensure other navbar elements like icons also use contrasting color */
+.navbar .clean-btn { /* For theme toggle, mobile menu button */
+  color: var(--ifm-navbar-link-color) !important;
+}
+.navbar .clean-btn:hover svg,
+.navbar .clean-btn:focus svg {
+  color: var(--ifm-navbar-link-hover-color) !important;
+}
+
+.navbar .dropdown > .navbar__link:after { /* Dropdown arrows */
+  /* Default Infima styling for dropdown arrows should work with new link colors */
+}
+
+
+/* Login Button Styling */
+.navbar-item-login.button {
+  background-color: var(--jega-button-blue-primary) !important;
+  border-color: var(--jega-button-blue-primary) !important;
+  color: #ffffff !important;
+  padding: 0.5rem 1.25rem !important;
+  font-weight: 600;
+  border-radius: 0.375rem;
+  transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.navbar-item-login.button:hover {
+  background-color: var(--jega-button-blue-light) !important;
+  border-color: var(--jega-button-blue-light) !important;
+}
+
+[data-theme='dark'] .navbar-item-login.button {
+  background-color: var(--jega-button-blue-primary) !important; 
+  border-color: var(--jega-button-blue-primary) !important;
+}
+
+[data-theme='dark'] .navbar-item-login.button:hover {
+  background-color: var(--jega-button-blue-light) !important;
+  border-color: var(--jega-button-blue-light) !important;
+}
+
+/* Add padding to the main content area */
+.main-wrapper {
+  padding-top: calc(var(--ifm-navbar-height) + 1rem); 
+  padding-bottom: 2rem; 
+}
+
+/* Sidebar styling - Adjust to match sample image */
+.menu__link {
+  border-radius: 0.375rem; 
+  transition: all 0.2s ease;
+  padding: 0.6rem 1rem; 
+  font-weight: 500; 
+  color: var(--ifm-menu-color);
+}
+
+.menu__link:hover {
+  background-color: var(--ifm-navbar-search-input-background-color); /* Light gray background */
   color: var(--ifm-color-primary);
 }
 
-.info-card p {
-  margin-bottom: 0;
-  font-size: 0.9rem;
-  color: var(--ifm-font-color-secondary);
+[data-theme='dark'] .menu__link:hover {
+  background-color: var(--ifm-navbar-search-input-background-color); /* Dark gray background for dark theme */
+  color: var(--ifm-color-primary);
 }
 
-/* Responsive cho 1 cột trên màn hình nhỏ */
-@media (max-width: 768px) {
-  .info-card {
-    flex-basis: 100%;
-  }
+.menu__link--active {
+  background-color: var(--ifm-navbar-search-input-background-color) !important; /* Light gray background */
+  color: var(--ifm-color-primary) !important; 
+  font-weight: 700 !important; 
+  border-left: 3px solid var(--ifm-color-primary) !important; 
+  padding-left: calc(1rem - 3px) !important; 
 }
 
-.youtube-video-container {
-  text-align: center;
-  margin-bottom: 2rem;
+[data-theme='dark'] .menu__link--active {
+  background-color: var(--ifm-navbar-search-input-background-color) !important; /* Dark gray background for dark theme */
+  border-left-color: var(--ifm-color-primary) !important;
+  color: var(--ifm-color-primary) !important;
+}
+
+.menu__list-item {
   position: relative;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio */
-  height: 0;
-  overflow: hidden;
 }
 
-.youtube-video-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+.menu__list-item:not(:last-child)::after {
+  display: none; 
 }
+
+.menu__list > .menu__list-item > .menu__link--sublist { 
+  font-size: 0.875rem; 
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 1.5rem; 
+  margin-bottom: 0.5rem; 
+  color: var(--ifm-color-emphasis-700); 
+}
+[data-theme='dark'] .menu__list > .menu__list-item > .menu__link--sublist {
+  color: var(--ifm-color-emphasis-600, #a1a1aa); /* Fallback if --ifm-color-emphasis-600 is not defined for dark */
+}
+
+.menu__link--sublist::before {
+  display: none; 
+}
+
+/* Table of Contents (On this page) styling */
+.table-of-contents {
+  border: 1px solid var(--ifm-toc-border-color);
+  border-radius: 0.5rem;
+  padding: 1rem; 
+  background-color: var(--ifm-background-color); 
+  margin-top: 0; 
+  margin-bottom: 2rem; 
+}
+
+.table-of-contents__link {
+  font-size: 0.9rem;
+  color: var(--ifm-font-color-base);
+  padding: 0.35rem 0; 
+  transition: color 0.2s ease;
+}
+
+.table-of-contents__link:hover {
+  color: var(--ifm-color-primary);
+}
+.table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+}
+
+[data-theme='dark'] .table-of-contents__link {
+  color: var(--ifm-font-color-base);
+}
+
+[data-theme='dark'] .table-of-contents__link:hover {
+  color: var(--ifm-color-primary);
+}
+[data-theme='dark'] .table-of-contents__link--active {
+  color: var(--ifm-color-primary);
+}
+
+/* Footer styles */
+.footer {
+  background-color: var(--ifm-footer-background-color) !important;
+  padding: 2rem 1rem;
+  border-top: 1px solid var(--ifm-footer-border-top-color) !important;
+  color: var(--ifm-footer-color) !important;
+}
+
+[data-theme='dark'] .footer {
+  background-color: var(--ifm-footer-background-color) !important;
+  border-top-color: var(--ifm-footer-border-top-color) !important;
+  color: var(--ifm-footer-color) !important;
+}
+
+.footer__logo {
+  max-width: 120px; 
+  margin-bottom: 1.5rem;
+  filter: var(--ifm-footer-logo-filter); 
+}
+
+.footer__title {
+  color: var(--ifm-footer-title-color) !important;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+
+.footer__links {
+  margin-bottom: 1.5rem;
+}
+
+.footer__link-item {
+  padding: 0.25rem 0; 
+}
+
+.footer__link {
+  color: var(--ifm-footer-link-color) !important;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.footer__link:hover {
+  color: var(--ifm-footer-link-hover-color) !important;
+}
+
+.footer__copyright {
+  text-align: center;
+  color: var(--ifm-footer-link-color) !important; /* Use footer link color for consistency */
+  font-size: 0.875rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--ifm-footer-border-top-color) !important;
+  margin-top: 1.5rem;
+}
+
+/* Override specific Docusaurus default styles if needed */
+ul, ol {
+  padding-left: 1.25rem; 
+  margin-bottom: 1rem;
+}
+
+li {
+  margin-bottom: 0.25rem;
+}
+
+blockquote {
+  border-left: 3px solid var(--ifm-color-primary);
+  padding: 0.5rem 1rem;
+  background-color: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-800);
+  font-style: normal; 
+  margin: 1.5rem 0;
+  border-radius: 0 0.375rem 0.375rem 0;
+}
+[data-theme='dark'] blockquote {
+  background-color: var(--ifm-color-emphasis-200); 
+  color: var(--ifm-color-emphasis-900); 
+}
+
+code:not([class*="language-"]) { /* Inline code */
+  background-color: var(--ifm-color-emphasis-100);
+  padding: 0.15rem 0.3rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+  color: var(--ifm-color-primary-darker);
+}
+[data-theme='dark'] code:not([class*="language-"]) {
+  background-color: var(--ifm-color-emphasis-300);
+  color: var(--ifm-color-primary-lightest);
+}
+
+pre > code[class*="language-"] { /* Code blocks */
+  font-size: 0.9rem;
+}
+pre {
+  background-color: #f9fafb !important; 
+  padding: 1rem;
+  border-radius: 0.375rem;
+  border: 1px solid var(--ifm-toc-border-color);
+  overflow-x: auto;
+}
+[data-theme='dark'] pre {
+  background-color: #1f2937 !important;
+  border-color: var(--ifm-toc-border-color);
+}
+
+/* Custom table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1.5rem;
+}
+
+th, td {
+  padding: 0.75rem;
+  text-align: left;
+  border-top: 1px solid var(--ifm-toc-border-color);
+}
+
+th {
+  background-color: #f8fafc; /* Light background for table headers */
+  color: #334155; /* Dark text for table headers */
+  font-weight: 600;
+}
+[data-theme='dark'] th {
+  background-color: #1f2937; /* Darker background for table headers in dark mode */
+  color: #e2e8f0; /* Light text for table headers in dark mode */
+}
+
+tr:hover {
+  background-color: #f1f5f9; /* Hover effect for table rows */
+}
+[data-theme='dark'] tr:hover {
+  background-color: #374151; /* Darker hover effect for table rows in dark mode */
+}
+
+/* End of global custom CSS */

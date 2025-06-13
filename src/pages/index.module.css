@@ -1,23 +1,169 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+.videoHomePageMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  min-height: calc(100vh - var(--ifm-navbar-height) - var(--ifm-footer-height, 0px)); /* Adjust if footer height is known */
+  box-sizing: border-box;
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
+.videoPageContent {
+  max-width: 900px;
+  width: 100%;
+  text-align: center;
+}
+
+.videoPageTitle {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+[data-theme='dark'] .videoPageTitle {
+  color: var(--ifm-heading-color);
+}
+
+.videoPageSubtitle {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+  color: var(--ifm-font-color-secondary);
+}
+
+[data-theme='dark'] .videoPageSubtitle {
+  color: var(--ifm-font-color-secondary);
+}
+
+.youtubeVideoContainer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 8px; /* Optional: if you want rounded corners for the container */
+  overflow: hidden; /* Ensures iframe respects border-radius */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.youtubeVideoContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0; /* Remove default iframe border */
+}
+
+@media (max-width: 768px) {
+  .videoPageTitle {
+    font-size: 2rem;
+  }
+  .videoPageSubtitle {
+    font-size: 1rem;
   }
 }
 
-.buttons {
+/* Features Section (Bắt đầu nhanh, Khám phá các tính năng) */
+.featuresSection {
+  width: 100%;
+  padding: 3rem 1rem; /* Increased padding */
   display: flex;
-  align-items: center;
   justify-content: center;
+  background-color: var(--ifm-background-color); /* Use Docusaurus background */
+}
+
+.featuresSection:nth-child(odd) { /* Alternate background for visual separation if needed */
+  /* background-color: var(--ifm-background-color-secondary, #f9fafb); */
+}
+
+[data-theme='dark'] .featuresSection:nth-child(odd) {
+  /* background-color: var(--ifm-background-color-secondary, #111827); */
+}
+
+.featuresContent {
+  max-width: 1100px; /* Max width for the content within the features section */
+  width: 100%;
+  text-align: center;
+}
+
+.sectionTitle {
+  font-size: 2rem; /* Slightly smaller than main page title */
+  margin-bottom: 0.75rem;
+  font-weight: 700;
+  color: var(--ifm-heading-color);
+}
+
+.sectionSubtitle {
+  font-size: 1.1rem;
+  margin-bottom: 2.5rem; /* More space before cards */
+  color: var(--ifm-font-color-secondary);
+  max-width: 700px; /* Constrain subtitle width for readability */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.featureCardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+  gap: 1.5rem; /* Space between cards */
+  text-align: left; /* Reset text-align for cards */
+}
+
+.featureCard {
+  background-color: var(--ifm-card-background-color, #ffffff);
+  border: 1px solid var(--ifm-card-border-color, var(--ifm-toc-border-color));
+  border-radius: 0.5rem; /* Rounded corners */
+  padding: 1.75rem;
+  text-decoration: none !important;
+  color: var(--ifm-font-color-base);
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-md); /* Use custom shadow */
+}
+
+.featureCard:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--ifm-color-primary);
+  text-decoration: none !important;
+}
+
+[data-theme='dark'] .featureCard {
+  background-color: var(--ifm-card-background-color, #1a202c); /* Darker card background */
+  border-color: var(--ifm-card-border-color, #2d3748);
+}
+
+.featureCardIcon {
+  font-size: 2rem; /* Larger icon */
+  margin-bottom: 1rem;
+  /* If using actual icon fonts or SVGs, you might target them differently */
+  color: var(--ifm-color-primary); /* Color the icon with primary color */
+}
+
+.featureCardTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: var(--ifm-heading-color);
+}
+
+.featureCardDescription {
+  font-size: 0.95rem;
+  color: var(--ifm-font-color-secondary);
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .sectionTitle {
+    font-size: 1.75rem;
+  }
+  .sectionSubtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  .featureCardsContainer {
+    grid-template-columns: 1fr; /* Stack cards on smaller screens */
+  }
+  .featureCard {
+    padding: 1.5rem;
+  }
 }
