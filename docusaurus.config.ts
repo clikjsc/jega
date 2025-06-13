@@ -81,7 +81,7 @@ const config: Config = {
     },
     navbar: {
       title: '', // Removed title to only show logo
-      hideOnScroll: true,
+      hideOnScroll: false,
       logo: {
         alt: 'JEGA Logo',
         src: 'img/logo Jega.png',

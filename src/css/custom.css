@@ -118,6 +118,10 @@
   box-shadow: var(--shadow-sm);
   border-bottom: 1px solid var(--ifm-navbar-border-bottom-color) !important;
   padding: 0 1rem;
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 1000 !important;
 }
 
 .navbar__title {
@@ -181,10 +185,63 @@
   border-color: var(--jega-button-blue-light) !important;
 }
 
-/* Add padding to the main content area */
+/* Add padding to the main content area to account for fixed navbar */
 .main-wrapper {
-  padding-top: calc(var(--ifm-navbar-height) + 1rem); 
+  padding-top: calc(var(--ifm-navbar-height, 60px) + 1rem); 
   padding-bottom: 2rem; 
+}
+
+/* Specific fix for content pages with fixed navbar */
+html[data-navbar-fixed="true"] .main-wrapper,
+.main-wrapper {
+  margin-top: var(--ifm-navbar-height, 60px);
+  padding-top: 1rem;
+}
+
+/* Fix for docs content specifically */
+.container {
+  padding-top: 1rem;
+}
+
+/* Remove any extra spacing at the top of doc content */
+article.margin-top--lg {
+  margin-top: 0 !important;
+}
+
+.container .row .col:first-child {
+  padding-top: 0;
+}
+
+/* Ensure the sidebar also accounts for fixed navbar */
+.docs-sidebar {
+  position: sticky;
+  top: calc(var(--ifm-navbar-height, 60px) + 1rem);
+  max-height: calc(100vh - var(--ifm-navbar-height, 60px) - 2rem);
+  overflow-y: auto;
+}
+
+/* Fix for the table of contents on the right */
+.table-of-contents {
+  position: sticky;
+  top: calc(var(--ifm-navbar-height, 60px) + 1rem);
+  max-height: calc(100vh - var(--ifm-navbar-height, 60px) - 2rem);
+  overflow-y: auto;
+}
+
+/* Prevent any content from appearing behind the fixed navbar */
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+/* Fix any potential jump when the page loads */
+.navbar--fixed-top {
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 1000 !important;
 }
 
 /* Sidebar styling - Adjust to match sample image */
