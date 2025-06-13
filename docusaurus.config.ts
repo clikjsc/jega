@@ -97,13 +97,13 @@ const config: Config = {
           className: 'navbar-item-docs',
         },
         {
-          to: '/blog/tags/online-training', // Updated to point to a blog tag/category
+          to: '/docs/trung-tam-huong-dan/online-training/hoc-jega-qua-video-truc-quan',
           label: 'Online Training',
           position: 'left',
           className: 'navbar-item-training',
         },
         {
-          to: '/blog/tags/jega-collection', // Updated to point to a blog tag/category
+          to: '/blog', // Updated to point to the blog archive page
           label: 'Jega Collection',
           position: 'left',
           className: 'navbar-item-collection',

@@ -382,7 +382,7 @@ pre {
   overflow-x: auto;
 }
 [data-theme='dark'] pre {
-  background-color: #1f2937 !important;
+  background-color: #1f2937; /* Removed !important */
   border-color: var(--ifm-toc-border-color);
 }
 

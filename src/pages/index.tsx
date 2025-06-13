@@ -81,37 +81,32 @@ const exploreFeaturesItems: FeatureCardItem[] = [
   {
     title: 'Thiết kế & Xây dựng',
     description: 'Học cách tạo mặt bằng, chỉnh sửa và dựng các cấu trúc xây dựng.',
-    link: '/docs/trung-tam-huong-dan/thiet-ke-xay-dung',
+    link: '/docs/trung-tam-huong-dan/thiet-ke-xay-dung/tao-mat-bang', // Points to the first item in the category
     IconComponent: DesignBuildIcon,
   },
   {
     title: 'Tuỳ chỉnh Nội thất',
     description: 'Khám phá thư viện nội thất phong phú và các công cụ tuỳ chỉnh chi tiết.',
-    link: '/docs/trung-tam-huong-dan/tuy-chinh-noi-that',
+    link: '/docs/trung-tam-huong-dan/tuy-chinh-noi-that/tu-do-noi-that', // Points to the first item in the category
     IconComponent: FurnitureIcon,
   },
   {
-    title: 'Kết xuất & Vẽ AI',
+    title: 'Kết xuất', // Title changed
     description: 'Tạo hình ảnh render chất lượng cao và sử dụng công cụ AI để tạo bản vẽ.',
-    link: '/docs/trung-tam-huong-dan/ket-xuat',
+    link: '/docs/trung-tam-huong-dan/ket-xuat/thiet-lap-ket-xuat', // Points to the first item in the category
     IconComponent: RenderAiIcon,
   },
   {
     title: 'Vật liệu Thiết kế',
     description: 'Quản lý và áp dụng các loại vật liệu đa dạng cho thiết kế của bạn.',
-    link: '/docs/trung-tam-huong-dan/vat-lieu-thiet-ke',
+    link: '/docs/trung-tam-huong-dan/tuy-chinh-noi-that/tuy-chinh-vat-lieu', // Points to the specific materials doc
     IconComponent: MaterialsIcon,
   },
-  {
-    title: 'Báo giá & Bản vẽ',
-    description: 'Tìm hiểu cách tạo báo giá và xuất các bản vẽ kỹ thuật chi tiết.',
-    link: '/docs/trung-tam-huong-dan/bao-gia-va-xuat-ban-ve',
-    IconComponent: DocumentIcon,
-  },
+  // Removed 'Báo giá & Bản vẽ' card as the linked directory is empty
   {
     title: 'Cập nhật hàng tháng',
     description: 'Xem các tính năng mới nhất được cập nhật trong JEGA.',
-    link: '/docs/trung-tam-huong-dan/cap-nhat-hang-thang',
+    link: '/docs/trung-tam-huong-dan/cap-nhat-hang-thang', // Points to the category overview
     IconComponent: CalendarIcon,
   },
 ];
