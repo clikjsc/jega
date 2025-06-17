@@ -126,3 +126,23 @@ bst-vista:
   label: BST Vista
   description: Thông tin về Bộ Sưu Tập Vista.
   permalink: /tags/bst-vista
+
+jega:
+  label: JEGA
+  description: Các bài viết liên quan đến JEGA.
+  permalink: /tags/jega
+
+online-training:
+  label: Online Training
+  description: Các video đào tạo trực tuyến.
+  permalink: /tags/online-training
+
+jega-cloud-design:
+  label: JEGA Cloud Design
+  description: Các bài viết và hướng dẫn về JEGA Cloud Design.
+  permalink: /tags/jega-cloud-design
+
+huong-dan:
+  label: Hướng dẫn
+  description: Các bài viết hướng dẫn sử dụng.
+  permalink: /tags/huong-dan

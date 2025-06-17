@@ -1,0 +1,35 @@
+---
+title: Tính Năng Rendering Video Kết Hợp Chuyển Động Ánh Sáng
+sidebar_label: Render Video & Ánh Sáng
+sidebar_position: 3
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextRenderVideoAnhSang = (
+  <p>
+    Kính gửi Quý khách hàng, Jega Việt Nam tự hào giới thiệu video tổng quan về Nền tảng thiết kế Jega Cloud Design với công nghệ Real-time Rendering tiên tiến, giúp biến ý tưởng nội thất của bạn thành hiện thực một cách sống động và chân thực nhất. Với Jega Cloud Design, bạn sẽ trải nghiệm quá trình thiết kế mượt mà, nhanh chóng và hiệu quả, từ phòng khách hiện đại đến phòng ngủ ấm cúng, mọi chi tiết đều được hiển thị rõ nét như thật.
+  </p>
+);
+
+export const timestampsDataRenderVideoAnhSang = [
+  { time: 0, label: "[00:00]", description: "Giới thiệu tổng quan về Nền tảng thiết kế Jega Cloud Design và khả năng kết xuất theo thời gian thực (Real-time Rendering)." },
+  { time: 3, label: "[00:03]", description: "Minh họa không gian phòng khách được hiển thị với công nghệ Real-time Rendering, thể hiện sự chân thực của ánh sáng và vật liệu." },
+  { time: 11, label: "[00:11]", description: "Chuyển cảnh sang không gian phòng ngủ, tiếp tục thể hiện khả năng Real-time Rendering trong việc mô phỏng các chi tiết nội thất." },
+  { time: 15, label: "[00:15]", description: "Thay đổi góc nhìn trong phòng ngủ, làm nổi bật sự linh hoạt của nền tảng trong việc hiển thị không gian từ nhiều góc độ khác nhau." },
+  { time: 19, label: "[00:19]", description: "Trình bày tổng thể không gian phòng ngủ từ trên cao, cho thấy cái nhìn bao quát về bố cục và sắp xếp nội thất." },
+  { time: 23, label: "[00:23]", description: "Tổng kết và giới thiệu logo Jega, khẳng định thương hiệu và công nghệ tiên tiến." }
+];
+
+## Giới thiệu
+
+{introTextRenderVideoAnhSang}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="ICv_2LCJNro"
+  videoPlayerTitle="Tính năng Rendering Video kết hợp chuyển động ánh sáng"
+  introContent={<p>Video giới thiệu về tính năng Rendering Video kết hợp chuyển động ánh sáng:</p>}
+  timestamps={timestampsDataRenderVideoAnhSang}
+/>

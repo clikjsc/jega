@@ -28,4 +28,20 @@ jega_team:
   name: JEGA Team
   title: Đội ngũ JEGA Việt Nam
   url: https://jega.vn
-  image_url: https://docs.jega.vn/img/logo Jega.png
+  image_url: /img/logo-jega-favicon.png
+  page: true
+  socials:
+    x: jegateam
+    # You can add other social links here if needed
+
+jega:
+  name: JEGA Team
+  title: Đội ngũ JEGA Việt Nam
+  url: https://jega.vn
+  image_url: /img/logo-jega-favicon.png
+  page: true
+  socials: {}
+    # Add any relevant social links for JEGA Team here
+    # Example:
+    # facebook: jegavn
+    # linkedin: company/jegavn

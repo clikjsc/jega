@@ -1,0 +1,33 @@
+---
+title: BST Temporal
+sidebar_label: BST Temporal
+sidebar_position: 1
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextTemporal = (
+  <p>
+    Jega tự hào giới thiệu video trình bày những thiết kế nội thất đa dạng, từ phòng khách sang trọng, phòng trà yên tĩnh đến phòng ngủ tiện nghi, tất cả đều được tạo ra một cách dễ dàng và nhanh chóng chỉ với vài cú nhấp chuột nhờ vào phần mềm Jega. Jega sẽ giúp bạn biến những ý tưởng thiết kế thành hiện thực với độ chính xác cao và khả năng tùy chỉnh linh hoạt, đồng thời gợi ý những cách phối màu hoàn hảo, mang đến không gian sống hài hòa và đẳng cấp.
+  </p>
+);
+
+export const timestampsDataTemporal = [
+  { time: 3, label: "[00:03]", description: "Thiết kế phòng khách với các lựa chọn nội thất được tùy chỉnh linh hoạt." },
+  { time: 10, label: "[00:10]", description: "Khám phá phòng trà với thiết kế thông minh, tối ưu không gian và thẩm mỹ." },
+  { time: 22, label: "[00:22]", description: "Tùy chỉnh nội thất phòng ngủ, từ tủ quần áo đến giường và bàn trang điểm." },
+  { time: 43, label: "[00:43]", description: "Gợi ý kết hợp màu sắc trong thiết kế nội thất để tạo ra không gian sống hài hòa và đẳng cấp." }
+];
+
+## Giới thiệu
+
+{introTextTemporal}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="k5-uj0efYbo"
+  videoPlayerTitle="BST Temporal Video"
+  introContent={<p>Video trình bày chi tiết các thiết kế trong Bộ sưu tập Temporal và các điểm nhấn thời gian quan trọng:</p>}
+  timestamps={timestampsDataTemporal}
+/>

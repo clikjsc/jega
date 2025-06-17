@@ -1,0 +1,34 @@
+---
+title: Tính Năng Nhận Diện Mặt Bằng Thông Minh
+sidebar_label: Nhận Diện Mặt Bằng Thông Minh
+sidebar_position: 12
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextNhanDienMatBang = (
+  <p>
+    Chào mừng bạn đến với JEGA Việt Nam! Video này sẽ hướng dẫn chi tiết cách sử dụng tính năng ""Nhận diện mặt bằng thông minh"" trong phần mềm thiết kế Jega, giúp bạn dễ dàng chuyển đổi bản vẽ 2D thành mô hình 3D hoàn chỉnh chỉ với vài thao tác đơn giản.
+  </p>
+);
+
+export const timestampsDataNhanDienMatBang = [
+  { time: 9, label: "[00:09]", description: "Giới thiệu về tính năng \"Nhận diện mặt bằng thông minh\" của phần mềm Jega." },
+  { time: 12, label: "[00:12]", description: "Hướng dẫn tải lên bản vẽ mặt bằng 2D vào phần mềm." },
+  { time: 15, label: "[00:15]", description: "Thực hiện nhận diện bản vẽ mặt bằng 2D bằng tính năng Smart Recognition." },
+  { time: 20, label: "[00:20]", description: "Thiết lập thông số và xác nhận kích thước tường cho bản vẽ đã nhận diện." },
+  { time: 30, label: "[00:30]", description: "Hiển thị kết quả bản vẽ mặt bằng đã được nhận diện thành công và xem dưới dạng 3D." }
+];
+
+## Giới thiệu
+
+{introTextNhanDienMatBang}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="o0XxsqqNwLI"
+  videoPlayerTitle="Tính năng Nhận diện mặt bằng thông minh"
+  introContent={<p>Video hướng dẫn chi tiết các bước sử dụng tính năng nhận diện mặt bằng thông minh trong JEGA Cloud Design:</p>}
+  timestamps={timestampsDataNhanDienMatBang}
+/>

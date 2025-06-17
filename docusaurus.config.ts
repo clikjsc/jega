@@ -91,19 +91,19 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar', // This assumes 'tutorialSidebar' is your main/default sidebar
+          sidebarId: 'tutorialSidebar',
           position: 'left',
           label: 'Trung tâm hướng dẫn',
           className: 'navbar-item-docs',
         },
         {
-          to: '/docs/trung-tam-huong-dan/online-training/hoc-jega-qua-video-truc-quan',
+          to: '/docs/online-training/overview',
           label: 'Online Training',
           position: 'left',
           className: 'navbar-item-training',
         },
         {
-          to: '/blog', // Updated to point to the blog archive page
+          to: '/docs/jega-collection',
           label: 'Jega Collection',
           position: 'left',
           className: 'navbar-item-collection',
@@ -139,11 +139,11 @@ const config: Config = {
             },
             {
               label: 'Online Training',
-              to: '/docs/trung-tam-huong-dan/online-training/hoc-jega-qua-video-truc-quan',
+              to: '/docs/online-training/00-overview', // Updated path
             },
             {
               label: 'Jega Collection',
-              to: '/docs/jega-collection',
+              to: '/docs/jega-collection', // Path is correct as it's a single page
             },
           ],
         },

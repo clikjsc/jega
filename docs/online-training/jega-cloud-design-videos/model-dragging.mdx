@@ -1,0 +1,31 @@
+---
+title: Video Model Dragging
+sidebar_label: Model Dragging
+sidebar_position: 8
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextModelDragging = (
+  <p>
+    Video này sẽ minh họa một trong những thao tác nền tảng và trực quan nhất trên phần mềm thiết kế Jega: cách thêm và sắp xếp nội thất vào không gian 3D của bạn. Chỉ với vài thao tác kéo-thả đơn giản, bạn có thể nhanh chóng hiện thực hóa ý tưởng của mình, biến một bản vẽ trống thành một không gian sống động và chi tiết.
+  </p>
+);
+
+export const timestampsDataModelDragging = [
+  { time: 0, label: "[00:00]", description: "Video bắt đầu với giao diện thiết kế 3D và thư viện nội thất (Furn) ở bên trái. Người dùng lựa chọn một mẫu sofa từ thư viện đa dạng của Jega." },
+  { time: 1, label: "[00:01]", description: "Bằng thao tác kéo-thả, mẫu sofa được đưa vào không gian thiết kế. Ngay sau khi được đặt vào sàn, các công cụ điều khiển trực quan (mũi tên xoay và di chuyển) xuất hiện, cho phép người dùng dễ dàng tùy chỉnh vị trí và góc nhìn của vật thể một cách chính xác." }
+];
+
+## Giới thiệu
+
+{introTextModelDragging}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="Ibbt8zAwly0"
+  videoPlayerTitle="Video Model Dragging"
+  introContent={<p>Dưới đây là các bước chính được thể hiện trong video:</p>}
+  timestamps={timestampsDataModelDragging}
+/>

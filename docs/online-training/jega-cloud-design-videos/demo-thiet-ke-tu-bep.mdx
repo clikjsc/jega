@@ -1,0 +1,39 @@
+---
+title: Video Demo Thiết Kế Tủ Bếp
+sidebar_label: Demo Thiết Kế Tủ Bếp
+sidebar_position: 21
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextDemoTuBep = (
+  <p>
+    Chào mừng quý khách đến với video giới thiệu về cách tạo ra một căn bếp mơ ước với Jega Việt Nam! Video này sẽ hướng dẫn bạn từng bước cách sử dụng phần mềm của chúng tôi để thiết kế, tùy chỉnh và hiện thực hóa không gian bếp lý tưởng của mình.
+  </p>
+);
+
+export const timestampsDataDemoTuBep = [
+  { time: 9, label: "[00:09]", description: "Tải sơ đồ mặt sàn CAD (Upload CAD Floorplan)." },
+  { time: 14, label: "[00:14]", description: "Tùy chỉnh các góc tủ (Customizing Different Cabinet)." },
+  { time: 28, label: "[00:28]", description: "Tùy chỉnh các tủ khác (Customize Different Cabinet)." },
+  { time: 49, label: "[00:49]", description: "Tùy chỉnh các chức năng công năng (Customize Functional Parts)." },
+  { time: 55, label: "[00:55]", description: "Thiết lập dải đèn (Install Light Strip)." },
+  { time: 60, label: "[01:00]", description: "Vẽ chân len, mặt bếp (Drawing Molding, Trim & Countertop)." },
+  { time: 67, label: "[01:07]", description: "Tùy chỉnh bàn đảo bếp (Customizing Kitchen Island)." },
+  { time: 85, label: "[01:25]", description: "Thay đổi phong cách và chất liệu (Change Style and Material)." },
+  { time: 95, label: "[01:35]", description: "Trang trí thông minh (Small Decorations)." },
+  { time: 100, label: "[01:40]", description: "Xuất bản vẽ và báo giá (Export Drawings and Quotation)." }
+];
+
+## Giới thiệu
+
+{introTextDemoTuBep}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="uKwfWWePTj0"
+  videoPlayerTitle="Video Demo Thiết Kế Tủ Bếp"
+  introContent={<p>Video demo về thiết kế tủ bếp trong JEGA Cloud Design:</p>}
+  timestamps={timestampsDataDemoTuBep}
+/>

@@ -1,0 +1,36 @@
+---
+title: Tính Năng Rendering Video Chất Lượng Cao
+sidebar_label: Render Video Chất Lượng Cao
+sidebar_position: 5
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextRenderVideoChatLuongCao = (
+  <p>
+    Chào mừng quý khách đến với Jega Việt Nam! Chúng tôi tự hào giới thiệu video về tính năng Rendering Video trong Jega Cloud Design, giúp quý khách hình dung rõ nét các thiết kế nội thất 3D chân thực và sống động. Khám phá ngay để thấy được sự tinh tế trong từng chi tiết và trải nghiệm không gian sống lý tưởng của mình.
+  </p>
+);
+
+export const timestampsDataRenderVideoChatLuongCao = [
+  { time: 0, label: "[00:00]", description: "Tổng quan về phòng khách với thiết kế hiện đại, sofa chữ L, bàn trà và kệ TV âm tường." },
+  { time: 8, label: "[00:08]", description: "Góc nhìn từ khu vực bếp và bàn ăn, cho thấy sự kết nối liền mạch giữa các không gian." },
+  { time: 12, label: "[00:12]", description: "Chi tiết khu vực bếp với tủ bếp trên dưới, bếp từ và bồn rửa." },
+  { time: 16, label: "[00:16]", description: "Khu vực tủ đựng đồ và tủ rượu, thể hiện sự tiện nghi và sang trọng." },
+  { time: 20, label: "[00:20]", description: "Phòng ngủ master với giường lớn, bàn trang điểm và tủ quần áo âm tường." },
+  { time: 24, label: "[00:24]", description: "Góc nhìn cận cảnh giường ngủ và hai tủ đầu giường." },
+  { time: 28, label: "[00:28]", description: "Toàn cảnh phòng ngủ nhìn ra cửa sổ lớn, mang lại ánh sáng tự nhiên và tầm nhìn thoáng đãng." }
+];
+
+## Giới thiệu
+
+{introTextRenderVideoChatLuongCao}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="zuP7jUl9ln8"
+  videoPlayerTitle="Tính năng Rendering Video chất lượng cao"
+  introContent={<p>Video giới thiệu về tính năng Rendering Video chất lượng cao trong JEGA Cloud Design:</p>}
+  timestamps={timestampsDataRenderVideoChatLuongCao}
+/>

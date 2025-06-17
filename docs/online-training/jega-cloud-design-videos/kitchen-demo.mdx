@@ -1,0 +1,35 @@
+---
+title: Video Kitchen Demo - JEGA CLOUD DESIGN
+sidebar_label: Kitchen Demo
+sidebar_position: 14
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextKitchenDemo = (
+  <p>
+    Chào mừng bạn đến với Jega Việt Nam! Video này giới thiệu một giải pháp đột phá trong thiết kế nội thất nhà bếp thông qua việc sử dụng phần mềm mô phỏng 3D hiện đại. Với công cụ này, bạn có thể dễ dàng biến ý tưởng thành hiện thực, từ việc bố trí các tủ bếp, kệ đến việc chọn lựa các thiết bị gia dụng như bếp từ, máy hút mùi và vòi rửa. Phần mềm cho phép bạn điều chỉnh kích thước, màu sắc và chất liệu của từng món đồ, giúp bạn hình dung rõ ràng không gian bếp mơ ước của mình trước khi bắt tay vào thi công.
+  </p>
+);
+
+export const timestampsDataKitchenDemo = [
+  { time: 0, label: "[00:00]", description: "Hướng dẫn thêm và tùy chỉnh tủ bếp cơ bản." },
+  { time: 3, label: "[00:03]", description: "Lắp đặt chậu rửa và vòi nước." },
+  { time: 6, label: "[00:06]", description: "Bổ sung bếp từ và máy hút mùi." },
+  { time: 9, label: "[00:09]", description: "Hoàn thiện với tủ bếp trên và các phụ kiện trang trí." },
+  { time: 12, label: "[00:12]", description: "Xem trước thiết kế hoàn chỉnh." },
+  { time: 18, label: "[00:18]", description: "Thành phẩm sau khi hoàn thiện." }
+];
+
+## Giới thiệu
+
+{introTextKitchenDemo}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="Wf-EdGoAZ1c"
+  videoPlayerTitle="Video Kitchen Demo - JEGA CLOUD DESIGN"
+  introContent={<p>Video demo về thiết kế bếp trong JEGA Cloud Design:</p>}
+  timestamps={timestampsDataKitchenDemo}
+/>

@@ -1,0 +1,37 @@
+---
+title: Macchiato Collection Demo
+sidebar_label: Macchiato Collection Demo
+sidebar_position: 24
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextMacchiatoDemo = (
+  <p>
+    Jega Việt Nam hân hạnh giới thiệu video về căn hộ Macchiato - ngôi nhà sang trọng mang phong cách Pháp nhẹ nhàng. Video này sẽ đưa quý khách khám phá từng không gian sống được thiết kế tinh tế và hài hòa, từ lối vào ấm cúng đến phòng khách hiện đại, phòng ăn sang trọng, phòng làm việc tiện nghi và các phòng ngủ đầy tính thẩm mỹ, bao gồm cả phòng thay đồ và phòng trẻ em. Cuối cùng, chúng tôi sẽ tiết lộ cách phối hợp màu sắc đã tạo nên vẻ đẹp độc đáo cho toàn bộ không gian này.
+  </p>
+);
+
+export const timestampsDataMacchiatoDemo = [
+  { time: 2, label: "[00:02]", description: "Lối vào" },
+  { time: 9, label: "[00:09]", description: "Phòng khách" },
+  { time: 27, label: "[00:27]", description: "Phòng ăn" },
+  { time: 31, label: "[00:31]", description: "Phòng làm việc" },
+  { time: 37, label: "[00:37]", description: "Phòng ngủ" },
+  { time: 46, label: "[00:46]", description: "Phòng thay đồ" },
+  { time: 50, label: "[00:50]", description: "Phòng trẻ em" },
+  { time: 65, label: "[01:05]", description: "Kết hợp màu sắc" }
+];
+
+## Giới thiệu
+
+{introTextMacchiatoDemo}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="7or62dn1AAk"
+  videoPlayerTitle="Macchiato"
+  introContent={<p>Video demo về bộ sưu tập Macchiato trong JEGA Cloud Design:</p>}
+  timestamps={timestampsDataMacchiatoDemo}
+/>

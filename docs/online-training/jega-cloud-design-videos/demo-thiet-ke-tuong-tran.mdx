@@ -1,0 +1,33 @@
+---
+title: Video Demo Thiết Kế Tường Và Trần Nhà
+sidebar_label: Demo Thiết Kế Tường & Trần
+sidebar_position: 19
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextDemoTuongTran = (
+  <p>
+    Jega Việt Nam hân hạnh giới thiệu giải pháp thiết kế nội thất toàn diện, giúp bạn dễ dàng hiện thực hóa mọi ý tưởng cho không gian sống mơ ước. Với công cụ thiết kế mạnh mẽ, bạn có thể nhanh chóng tạo ra các bản vẽ trần và tường tùy chỉnh, từ đó biến hóa không gian nội thất trở nên độc đáo và sang trọng. Hơn thế nữa, hệ thống còn hỗ trợ xuất bản vẽ CAD và báo giá chi tiết, giúp bạn tối ưu hóa quy trình làm việc và quản lý dự án hiệu quả.
+  </p>
+);
+
+export const timestampsDataDemoTuongTran = [
+  { time: 9, label: "[00:09]", description: "Tải sơ đồ tầng CAD." },
+  { time: 23, label: "[00:23]", description: "Thiết kế trần chìm với đèn chiếu sáng." },
+  { time: 35, label: "[00:35]", description: "Thiết kế tấm ốp tường." },
+  { time: 84, label: "[01:24]", description: "Xuất bản vẽ CAD và báo giá." }
+];
+
+## Giới thiệu
+
+{introTextDemoTuongTran}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="eLSMXWT59os"
+  videoPlayerTitle="Video Demo Thiết Kế Tường Và Trần Nhà"
+  introContent={<p>Video demo về thiết kế tường và trần nhà trong JEGA Cloud Design:</p>}
+  timestamps={timestampsDataDemoTuongTran}
+/>

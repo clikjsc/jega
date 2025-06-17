@@ -1,0 +1,17 @@
+.videoTimestampWrapper {
+  margin-bottom: 1.5rem; /* Add some space below the component */
+}
+
+.timestampContent {
+  margin-top: 0.5rem; /* Space between video and timestamp list */
+}
+
+.timestampLink {
+  cursor: pointer;
+  color: var(--ifm-link-color); /* Use Docusaurus link color */
+  text-decoration: none;
+}
+
+.timestampLink:hover {
+  text-decoration: underline;
+}

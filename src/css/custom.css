@@ -110,6 +110,26 @@
   --ifm-color-emphasis-900: #fee2e2;
 }
 
+/* Breadcrumb styling */
+.breadcrumbs__link {
+  color: var(--jega-button-blue-primary) !important;
+}
+
+.breadcrumbs__link:hover {
+  color: var(--jega-button-blue-light) !important;
+}
+
+/* Styling for links within content */
+article a {
+  color: var(--jega-button-blue-primary);
+  text-decoration: none;
+}
+
+article a:hover {
+  color: var(--jega-button-blue-light);
+  text-decoration: underline;
+}
+
 /* Navbar styling to match sample image */
 .navbar {
   background: var(--ifm-navbar-background-color) !important;
@@ -154,9 +174,9 @@
   color: var(--ifm-navbar-link-hover-color) !important;
 }
 
-.navbar .dropdown > .navbar__link:after { /* Dropdown arrows */
+/* .navbar .dropdown > .navbar__link:after { */ /* Dropdown arrows */
   /* Default Infima styling for dropdown arrows should work with new link colors */
-}
+/* } */
 
 
 /* Login Button Styling */
@@ -197,7 +217,7 @@
   border-radius: 0.375rem; 
   transition: all 0.2s ease;
   padding: 0.6rem 1rem; 
-  font-weight: 500; 
+  font-weight: 400; /* Changed from 500 to 400 for normal weight */
   color: var(--ifm-menu-color);
 }
 
@@ -423,3 +443,129 @@ tr:hover {
 }
 
 /* End of global custom CSS */
+
+/* Custom styles for blog author avatar */
+.avatar__photo {
+  width: 40px; /* Adjust size as needed */
+  height: 40px; /* Adjust size as needed */
+}
+
+/* --- JEGA Custom Sidebar Styling --- */
+
+/* General link font size in sidebar */
+.menu__link {
+  font-size: 0.9rem; /* Slightly smaller font for doc links */
+  /* Existing styles for .menu__link are fine, just adjusting font-size */
+}
+
+/* Top-level category titles in the sidebar (e.g., Trung tâm hướng dẫn, Online Training) */
+/* These are .menu__list-item--collapsible direct children of .menu > .menu__list */
+.menu > .menu__list > .menu__list-item--collapsible > .menu__link {
+  font-size: 1rem; /* Slightly larger for top-level categories */
+  font-weight: 600; /* Bolder */
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+/* Sub-category titles (e.g., Hướng dẫn người dùng mới within Trung tâm hướng dẫn) */
+/* This selector was for category titles, let's refine it for sub-categories */
+.menu__list .menu__list-item--collapsible .menu__link--sublist, /* Nested category titles */
+.menu__list-item--collapsible > .menu__link--sublist { /* Original selector, ensure it applies correctly */
+  font-size: 0.9rem; /* Font size for sub-category titles */
+  font-weight: 500; /* Medium weight for sub-category titles */
+  text-transform: none; /* Remove uppercase if not desired for sub-categories */
+  margin-top: 0.75rem; /* Adjust spacing */
+  margin-bottom: 0.25rem;
+  /* color: var(--ifm-color-emphasis-700); */ /* Keep or adjust color */
+}
+
+/* Visual separation for top-level categories in the sidebar */
+.menu > .menu__list > .menu__list-item--collapsible {
+  margin-bottom: 0.5rem; /* Space after a top-level category block */
+  /* border-bottom: 1px solid var(--ifm-toc-border-color); */ /* Optional: line separator */
+  /* padding-bottom: 0.5rem; */ /* Optional: padding if using border */
+}
+.menu > .menu__list > .menu__list-item--collapsible:last-child {
+  margin-bottom: 0;
+  /* border-bottom: none; */
+}
+
+
+/* Styling for active document link - already good, but ensure it's distinct */
+.menu__link--active:not(.menu__link--sublist) { /* Target only active doc links, not category headers */
+  background-color: rgba(13, 28, 83, 0.1) !important; /* Light blue background for light theme */
+  color: var(--jega-button-blue-primary) !important;  /* JEGA Blue text */
+  font-weight: bold !important; /* Changed from 600 to bold */
+  /* border-left: 3px solid var(--ifm-color-primary) !important; */ /* Keep if desired */
+  /* padding-left: calc(1rem - 3px) !important; */ /* Keep if desired */
+}
+[data-theme='dark'] .menu__link--active:not(.menu__link--sublist) {
+  background-color: rgba(46, 77, 184, 0.15) !important; /* Light blue background for dark theme */
+  color: var(--jega-button-blue-primary) !important; /* Ensure blue text for dark theme too */
+}
+
+/* Style for expanded category (when its sublist is open) */
+.menu__list-item--collapsible.menu__list-item--collapsed > .menu__link {
+  /* Style for collapsed category headers */
+  font-weight: 600; /* For top-level */
+}
+.menu__list-item--collapsible:not(.menu__list-item--collapsed) > .menu__link {
+  /* Style for expanded category headers */
+  color: var(--ifm-color-primary);
+  font-weight: 700; /* For top-level */
+}
+
+/* Differentiate category links from doc links visually */
+.menu__link--sublist { /* Category headers */
+  /* font-weight: 600; /* Already handled by more specific selectors above */
+  /* color: #525860; */ /* Example: slightly different color for category text */
+}
+[data-theme='dark'] .menu__link--sublist {
+  /* color: #adb5bd; */
+}
+
+/* Add arrow icons to collapsible categories using SVG */
+.menu__link.menu__link--sublist { /* Increased specificity */
+  display: flex; /* Use flex to help position the ::after element */
+  align-items: center;
+  justify-content: space-between; /* Pushes ::after to the end if not using margin-left: auto */
+}
+
+.menu__link.menu__link--sublist::after {
+  content: '';
+  display: inline-block;
+  flex-shrink: 0; /* Prevent shrinking if label is long */
+  width: 1em; /* Slightly larger for visibility */
+  height: 1em; /* Slightly larger for visibility */
+  margin-left: 0.5em; /* Spacing from label, auto might not work well with flex justify-content */
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z'/%3E%3C/svg%3E"); /* Chevron right icon */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  transition: transform 0.2s ease;
+  /* border: 1px solid red; */ /* For debugging visibility */
+  /* Base transform is none, or specifically 0deg for the collapsed state */
+}
+
+/* Collapsed state: point right (>) */
+.menu__list-item--collapsed > .menu__link.menu__link--sublist::after {
+  transform: rotate(0deg); 
+}
+
+/* Expanded state: point down (v) */
+.menu__list-item:not(.menu__list-item--collapsed) > .menu__link.menu__link--sublist::after {
+  transform: rotate(90deg);
+}
+
+/* Ensure default Docusaurus arrow is hidden. Try to be more specific or find its exact element if needed. */
+.menu__link--sublist .menu__caret, /* Common Docusaurus structure */
+.menu__list-item--collapsible > .menu__link > .menu__caret { /* Another common structure */
+  display: none !important;
+}
+/* Fallback if the above doesn't work, try to hide any SVG/span that might be the caret */
+.menu__link--sublist > svg[class*="caret"],
+.menu__link--sublist > span[class*="caret"] {
+    display: none !important;
+}
+
+/* --- End JEGA Custom Sidebar Styling --- */

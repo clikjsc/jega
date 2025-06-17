@@ -1,0 +1,37 @@
+---
+title: Video Demo Thiết Kế Phòng Tắm
+sidebar_label: Demo Thiết Kế Phòng Tắm
+sidebar_position: 18
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextDemoPhongTam = (
+  <p>
+    Chào mừng quý khách đến với Jega Việt Nam! Video này minh họa chi tiết quy trình thiết kế phòng tắm theo yêu cầu của quý khách. Jega Việt Nam tự hào mang đến giải pháp tối ưu, giúp quý khách dễ dàng tùy chỉnh không gian sống, từ việc tạo mặt bằng, sắp xếp bố cục tủ, đến lựa chọn vật liệu và xuất bản vẽ kỹ thuật chi tiết.
+  </p>
+);
+
+export const timestampsDataDemoPhongTam = [
+  { time: 9, label: "[00:09]", description: "Tùy ý tạo một mặt bằng phòng tắm cơ bản với các kích thước và vị trí cửa, cửa sổ theo ý muốn." },
+  { time: 29, label: "[00:29]", description: "Tinh chỉnh các hệ tủ chức năng như tủ lavabo, tủ để máy giặt, tủ treo tường, tối ưu không gian lưu trữ và sắp xếp." },
+  { time: 45, label: "[00:45]", description: "Lắp đặt chậu rửa và vòi nước, đảm bảo tính thẩm mỹ và công năng sử dụng." },
+  { time: 51, label: "[00:51]", description: "Điều chỉnh độ cao của hệ tủ và tạo các mặt bàn phù hợp với nhu cầu." },
+  { time: 56, label: "[00:56]", description: "Thay đổi phong cách và vật liệu cho toàn bộ không gian phòng tắm, từ gạch ốp tường đến các chi tiết tủ, để tạo nên một thiết kế hài hòa." },
+  { time: 65, label: "[01:05]", description: "Trang trí thêm với đồ decor như gương, đèn và cây xanh, hoàn thiện không gian sống động và tiện nghi." },
+  { time: 79, label: "[01:19]", description: "Tùy chỉnh phòng tắm đứng, bao gồm lựa chọn kính, khung và các phụ kiện đi kèm." },
+  { time: 111, label: "[01:51]", description: "Xuất bản vẽ về CAD và báo giá chi tiết, giúp quý khách dễ dàng quản lý dự án và đưa ra quyết định cuối cùng." }
+];
+
+## Giới thiệu
+
+{introTextDemoPhongTam}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="_uER3HLR5Zk"
+  videoPlayerTitle="Video Demo Thiết Kế Phòng Tắm"
+  introContent={<p>Video demo về thiết kế phòng tắm trong JEGA Cloud Design:</p>}
+  timestamps={timestampsDataDemoPhongTam}
+/>

@@ -1,0 +1,124 @@
+.videoPlayerContainer {
+  margin-top: 1.5rem;
+  margin-bottom: 2rem; /* Increased bottom margin for more space */
+  display: flex;
+  justify-content: center;
+}
+
+/* This is the main container for the entire browser window mock */
+.browserWindow {
+  border-radius: 0.5rem; /* Rounded corners for the whole window */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  max-width: 720px; /* Max width for the browser window */
+  width: 100%;
+  border: 1px solid #e2e8f0; /* Overall border */
+}
+
+.videoFrameHeader {
+  background-color: #f3f4f6; /* Light gray for header bar */
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e2e8f0;
+  border-radius: 0.5rem 0.5rem 0 0; /* Rounded top corners */
+  border: 1px solid #e2e8f0;
+  border-bottom: none;
+}
+
+.trafficLights {
+  display: flex;
+  align-items: center;
+}
+
+.trafficLight {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+
+.trafficLightRed { background-color: #fc5753; }
+.trafficLightYellow { background-color: #fdbb40; }
+.trafficLightGreen { background-color: #34c749; }
+
+.videoUrlBar {
+  flex-grow: 1;
+  background-color: #ffffff;
+  border-radius: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-left: 1rem;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* This is the content area below the header, containing the video */
+.videoFrame {
+  background-color: #ffffff; /* Content area background */
+  /* border-top: 1px solid #e2e8f0; /* Separator line from header, already handled by header's bottom border */
+  border-radius: 0 0 0.4rem 0.4rem; /* Match overall rounding, slightly less than header for inset look */
+  overflow: hidden; /* Important to clip the iframe if it has its own radius or bleeds */
+  padding: 0; /* Padding will be handled by videoContent if needed, or not at all */
+}
+
+.videoContent {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+  height: 0;
+  overflow: hidden;
+  line-height: 0; 
+}
+
+.videoContent :global(iframe), 
+.videoContent :global(.youtubePlayer > iframe) { /* Target iframe from react-youtube */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+
+.videoFrame :global(iframe) {
+  display: block; 
+  border: none; 
+  width: 100%; /* Ensure iframe takes full width of .videoContent */
+  /* height is usually determined by aspect ratio by LiteYouTubeEmbed */
+}
+
+.youtubePlayer { /* Class for the react-youtube component itself if needed */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Dark theme adjustments */
+[data-theme='dark'] .browserWindow {
+  border-color: #374151;
+}
+
+[data-theme='dark'] .videoFrame {
+  background-color: #1f2937; /* Dark content area */
+  /* border-top-color: #374151; */ /* If border-top was used */
+}
+
+[data-theme='dark'] .videoFrameHeader {
+  background-color: #374151; /* Darker gray for header bar */
+  border-color: #4b5563;
+}
+
+[data-theme='dark'] .trafficLightRed { background-color: #ef4444; }
+[data-theme='dark'] .trafficLightYellow { background-color: #f59e0b; }
+[data-theme='dark'] .trafficLightGreen { background-color: #22c55e; }
+
+[data-theme='dark'] .videoUrlBar {
+  background-color: #4b5563;
+  color: #9ca3af;
+}

@@ -1,0 +1,32 @@
+---
+title: Video Chuyển Động Phòng Khách
+sidebar_label: Chuyển Động Phòng Khách
+sidebar_position: 7
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextChuyenDongPhongKhach = (
+  <p>
+    Chào mừng quý vị đến với Jega Việt Nam! Chúng tôi tự hào giới thiệu những giải pháp nội thất hiện đại, tối ưu không gian sống, mang lại sự tiện nghi và vẻ đẹp tinh tế cho ngôi nhà của bạn. Với video này, quý vị sẽ được chiêm ngưỡng một không gian phòng ngủ với thiết kế đơn giản nhưng vô cùng hiện đại và sang trọng, tập trung vào công năng sử dụng và thẩm mỹ hài hòa.
+  </p>
+);
+
+export const timestampsDataChuyenDongPhongKhach = [
+  { time: 0, label: "[00:00]", description: "Tổng quan về thiết kế phòng ngủ hiện đại với gam màu trắng và gỗ tự nhiên chủ đạo." },
+  { time: 5, label: "[00:05]", description: "Chi tiết về việc sử dụng hệ thống cửa sổ lớn giúp tối đa hóa ánh sáng tự nhiên, tạo cảm giác thông thoáng cho căn phòng." },
+  { time: 10, label: "[00:10]", description: "Góc nhìn từ trên cao cho thấy sự sắp xếp gọn gàng, khoa học của các món đồ nội thất, đặc biệt là chiếc giường thấp với thiết kế độc đáo và tủ quần áo âm tường tiết kiệm không gian." }
+];
+
+## Giới thiệu
+
+{introTextChuyenDongPhongKhach}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="hPnbJ-yUbDQ"
+  videoPlayerTitle="Video chuyển động phòng khách"
+  introContent={<p>Video giới thiệu về chuyển động phòng khách:</p>}
+  timestamps={timestampsDataChuyenDongPhongKhach}
+/>

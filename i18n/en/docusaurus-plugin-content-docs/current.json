@@ -158,5 +158,193 @@
   "sidebar.tutorialSidebar.category.Tài Liệu Kỹ Thuật & Quy Trình": {
     "message": "Technical Docs & Processes",
     "description": "The label for category Tài Liệu Kỹ Thuật & Quy Trình in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Jega Cloud Design": {
+    "message": "Jega Cloud Design",
+    "description": "The label for Jega Cloud Design in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Online Training JCD": {
+    "message": "Online Training JCD",
+    "description": "The label for category Online Training JCD in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (Video chính)": {
+    "message": "Session 1 (Main Video)",
+    "description": "The label for Buổi 1 (Video chính) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (d84J2090Pxw)": {
+    "message": "Session 1 (d84J2090Pxw)",
+    "description": "The label for Buổi 1 (d84J2090Pxw) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (02-10-2024)": {
+    "message": "Session 1 (02-10-2024)",
+    "description": "The label for Buổi 1 (02-10-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 2 (03-10-2024)": {
+    "message": "Session 2 (03-10-2024)",
+    "description": "The label for Buổi 2 (03-10-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 3 (04-10-2024)": {
+    "message": "Session 3 (04-10-2024)",
+    "description": "The label for Buổi 3 (04-10-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (09-10-2024)": {
+    "message": "Session 1 (09-10-2024)",
+    "description": "The label for Buổi 1 (09-10-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 2 (10-10-2024)": {
+    "message": "Session 2 (10-10-2024)",
+    "description": "The label for Buổi 2 (10-10-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 2 (17-10-2024)": {
+    "message": "Session 2 (17-10-2024)",
+    "description": "The label for Buổi 2 (17-10-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 3 (18-10-2024)": {
+    "message": "Session 3 (18-10-2024)",
+    "description": "The label for Buổi 3 (18-10-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (21-10-2024)": {
+    "message": "Session 1 (21-10-2024)",
+    "description": "The label for Buổi 1 (21-10-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 3 (25-10-2024)": {
+    "message": "Session 3 (25-10-2024)",
+    "description": "The label for Buổi 3 (25-10-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 2 (01-11-2024)": {
+    "message": "Session 2 (01-11-2024)",
+    "description": "The label for Buổi 2 (01-11-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (04-11-2024)": {
+    "message": "Session 1 (04-11-2024)",
+    "description": "The label for Buổi 1 (04-11-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (11-11-2024)": {
+    "message": "Session 1 (11-11-2024)",
+    "description": "The label for Buổi 1 (11-11-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 3 (15-11-2024)": {
+    "message": "Session 3 (15-11-2024)",
+    "description": "The label for Buổi 3 (15-11-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (19-11-2024)": {
+    "message": "Session 1 (19-11-2024)",
+    "description": "The label for Buổi 1 (19-11-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 3 (29-11-2024)": {
+    "message": "Session 3 (29-11-2024)",
+    "description": "The label for Buổi 3 (29-11-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (02-12-2024)": {
+    "message": "Session 1 (02-12-2024)",
+    "description": "The label for Buổi 1 (02-12-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 2 (04-12-2024)": {
+    "message": "Session 2 (04-12-2024)",
+    "description": "The label for Buổi 2 (04-12-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (09-12-2024)": {
+    "message": "Session 1 (09-12-2024)",
+    "description": "The label for Buổi 1 (09-12-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 2 (11-12-2024)": {
+    "message": "Session 2 (11-12-2024)",
+    "description": "The label for Buổi 2 (11-12-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 2 (18-12-2024)": {
+    "message": "Session 2 (18-12-2024)",
+    "description": "The label for Buổi 2 (18-12-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 3 (20-12-2024)": {
+    "message": "Session 3 (20-12-2024)",
+    "description": "The label for Buổi 3 (20-12-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (23-12-2024)": {
+    "message": "Session 1 (23-12-2024)",
+    "description": "The label for Buổi 1 (23-12-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 1 (30-12-2024)": {
+    "message": "Session 1 (30-12-2024)",
+    "description": "The label for Buổi 1 (30-12-2024) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Buổi 2 (02-01-2025)": {
+    "message": "Session 2 (02-01-2025)",
+    "description": "The label for Buổi 2 (02-01-2025) in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Thực Chiến JCD": {
+    "message": "JCD Practical Guide",
+    "description": "The label for category Thực Chiến JCD in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Hướng dẫn Render": {
+    "message": "Render Guide",
+    "description": "The label for Hướng dẫn Render in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Render Link VR 720 độ": {
+    "message": "Render VR 720 Link",
+    "description": "The label for Render Link VR 720 độ in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Render Focus": {
+    "message": "Render Focus",
+    "description": "The label for Render Focus in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.Tổng quan Bộ sưu tập": {
+    "message": "Collections Overview",
+    "description": "The label for Tổng quan Bộ sưu tập in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Temporal": {
+    "message": "BST Temporal",
+    "description": "The label for BST Temporal in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Macchiato": {
+    "message": "BST Macchiato",
+    "description": "The label for BST Macchiato in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Harmony": {
+    "message": "BST Harmony",
+    "description": "The label for BST Harmony in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Vista": {
+    "message": "BST Vista",
+    "description": "The label for BST Vista in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Phantom": {
+    "message": "BST Phantom",
+    "description": "The label for BST Phantom in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Van der Rohe": {
+    "message": "BST Van der Rohe",
+    "description": "The label for BST Van der Rohe in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Bliss": {
+    "message": "BST Bliss",
+    "description": "The label for BST Bliss in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Archi": {
+    "message": "BST Archi",
+    "description": "The label for BST Archi in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Eden": {
+    "message": "BST Eden",
+    "description": "The label for BST Eden in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Chantilly": {
+    "message": "BST Chantilly",
+    "description": "The label for BST Chantilly in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Sierra": {
+    "message": "BST Sierra",
+    "description": "The label for BST Sierra in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Aurora": {
+    "message": "BST Aurora",
+    "description": "The label for BST Aurora in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Grove": {
+    "message": "BST Grove",
+    "description": "The label for BST Grove in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.label.BST Lumen": {
+    "message": "BST Lumen",
+    "description": "The label for BST Lumen in sidebar tutorialSidebar"
   }
 }

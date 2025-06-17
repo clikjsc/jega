@@ -1,0 +1,33 @@
+---
+title: Render Ánh Sáng Tự Nhiên
+sidebar_label: Render Ánh Sáng Tự Nhiên
+sidebar_position: 25
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextRenderAnhSangTuNhien = (
+  <p>
+    Dưới đây là tổng hợp nội dung chính của video, giúp quý khách hàng nắm bắt nhanh chóng và hiệu quả. Video trình bày cách Jega Việt Nam sử dụng các giải pháp số hóa và tự động hóa để tối ưu hóa quy trình sản xuất nội thất. Từ khâu thiết kế đến quản lý chuỗi cung ứng, Jega cam kết mang đến những sản phẩm chất lượng cao với quy trình sản xuất hiệu quả và minh bạch.
+  </p>
+);
+
+export const timestampsDataRenderAnhSangTuNhien = [
+  { time: 8, label: "[00:08]", description: "Cảnh nội thất ban ngày, cho thấy ánh sáng tự nhiên tràn ngập không gian, tạo cảm giác rộng rãi và thoáng đãng." },
+  { time: 10, label: "[00:10]", description: "Cảnh nội thất dần chuyển sang ban đêm, tạo nên một không gian ấm cúng và sang trọng với ánh sáng nhân tạo." },
+  { time: 15, label: "[00:15]", description: "Ánh sáng ban ngày trở lại, làm nổi bật sự tươi mới và sinh động của không gian nội thất." },
+  { time: 20, label: "[00:20]", description: "Không gian lại chuyển sang ban đêm, thể hiện sự linh hoạt và khả năng biến đổi của thiết kế nội thất Jega." }
+];
+
+## Giới thiệu
+
+{introTextRenderAnhSangTuNhien}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="3753ZTwK_zg"
+  videoPlayerTitle="Render Ánh sáng tự nhiên"
+  introContent={<p>Video demo về render ánh sáng tự nhiên trong JEGA Cloud Design:</p>}
+  timestamps={timestampsDataRenderAnhSangTuNhien}
+/>

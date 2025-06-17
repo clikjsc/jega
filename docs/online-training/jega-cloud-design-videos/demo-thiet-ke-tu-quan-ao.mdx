@@ -1,0 +1,36 @@
+---
+title: Video Demo Thiết Kế Tủ Quần Áo May Đo
+sidebar_label: Demo Thiết Kế Tủ Quần Áo
+sidebar_position: 22
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextDemoTuQuanAo = (
+  <p>
+    Chào mừng quý khách đến với Jega Việt Nam! Video này trình bày chi tiết cách chúng tôi giúp bạn thiết kế và tùy chỉnh tủ quần áo theo yêu cầu, đặc biệt là với các không gian có hình dáng độc đáo. Từ việc tùy chỉnh kích thước tủ, vẽ các tấm đợt và khung theo ý muốn, đến việc thay đổi phong cách và chất liệu, Jega đảm bảo mọi sản phẩm đều phù hợp hoàn hảo với không gian của bạn. Cuối cùng, chúng tôi sẽ xuất bản vẽ chi tiết và báo giá nhanh chóng để giúp bạn dễ dàng hiện thực hóa ý tưởng.
+  </p>
+);
+
+export const timestampsDataDemoTuQuanAo = [
+  { time: 7, label: "[00:07]", description: "Tùy chỉnh các tủ áo nhỏ." },
+  { time: 22, label: "[00:22]", description: "Vẽ các tấm đợt tùy chỉnh." },
+  { time: 51, label: "[00:51]", description: "Thiết kế giường tatami." },
+  { time: 63, label: "[01:03]", description: "Vẽ khung may đo/tùy chỉnh." },
+  { time: 100, label: "[01:40]", description: "Thay đổi phong cách và chất liệu." },
+  { time: 108, label: "[01:48]", description: "Trang trí thông minh." },
+  { time: 112, label: "[01:52]", description: "Xuất bản vẽ và báo giá." }
+];
+
+## Giới thiệu
+
+{introTextDemoTuQuanAo}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="vVOMTI5VjIg"
+  videoPlayerTitle="Video Demo Thiết Kế Tủ Quần Áo May Đo"
+  introContent={<p>Video demo về thiết kế tủ quần áo may đo trong JEGA Cloud Design:</p>}
+  timestamps={timestampsDataDemoTuQuanAo}
+/>

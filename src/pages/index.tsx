@@ -72,7 +72,7 @@ const quickStartItems: FeatureCardItem[] = [
   {
     title: 'Hướng dẫn cho người mới',
     description: 'Các bước đầu tiên để đăng ký, cài đặt và làm quen với giao diện JEGA.',
-    link: '/docs/huong-dan-nguoi-dung-moi/bat-dau-su-dung',
+    link: '/docs/trung-tam-huong-dan/huong-dan-nguoi-dung-moi/dang-ky-tai-khoan',
     IconComponent: UserPlusIcon,
   },
 ];

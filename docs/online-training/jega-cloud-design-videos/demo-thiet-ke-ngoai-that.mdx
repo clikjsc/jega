@@ -1,0 +1,38 @@
+---
+title: Video Demo Thiết Kế Ngoại Thất
+sidebar_label: Demo Thiết Kế Ngoại Thất
+sidebar_position: 20
+---
+
+import VideoWithTimestamps from '@site/src/components/VideoWithTimestamps';
+
+export const introTextDemoNgoaiThat = (
+  <p>
+    Chào mừng quý khách đến với Jega Việt Nam! Trong video này, chúng tôi sẽ giới thiệu chi tiết về quy trình thiết kế ngoại thất cho ngôi nhà hai tầng. Jega Việt Nam, với hệ sinh thái kỹ thuật số toàn diện, giúp quý khách dễ dàng hình dung và tùy chỉnh mọi yếu tố, từ mặt bằng, ban công, sân vườn đến gara ô tô, mang đến không gian sống hoàn hảo và đẳng cấp.
+  </p>
+);
+
+export const timestampsDataDemoNgoaiThat = [
+  { time: 7, label: "[00:07]", description: "Giới thiệu tổng quan về thiết kế ngoại thất nhà 2 tầng." },
+  { time: 9, label: "[00:09]", description: "Thiết kế mặt bằng nhà 2 tầng, bao gồm cách vẽ tường, thêm cửa sổ và cửa ra vào." },
+  { time: 35, label: "[00:35]", description: "Thiết kế ban công, tùy chỉnh hình dạng và kích thước." },
+  { time: 61, label: "[00:01]", description: "Thiết kế sân thượng, tạo không gian thư giãn và giải trí." }, // Note: Timestamp in original was 01:01, assuming it's 61s
+  { time: 69, label: "[01:09]", description: "Thiết kế sân vườn, bố trí cảnh quan và tiểu cảnh." },
+  { time: 83, label: "[01:23]", description: "Thiết kế gara ô tô, tối ưu hóa không gian và công năng." },
+  { time: 87, label: "[01:27]", description: "Tổng quan ngoại thất nhà 2 tầng hoàn chỉnh, bao gồm sân vườn và gara ô tô." },
+  { time: 99, label: "[01:39]", description: "Khám phá chi tiết các khu vực ngoại thất như hồ bơi và khu vực thư giãn." },
+  { time: 114, label: "[01:54]", description: "Chiêm ngưỡng toàn bộ không gian ngoại thất từ nhiều góc độ khác nhau." }
+];
+
+## Giới thiệu
+
+{introTextDemoNgoaiThat}
+
+## Nội dung chính
+
+<VideoWithTimestamps
+  youtubeId="07dCGsNeF6U"
+  videoPlayerTitle="Video Demo Thiết Kế Ngoại Thất"
+  introContent={<p>Video demo về thiết kế ngoại thất trong JEGA Cloud Design:</p>}
+  timestamps={timestampsDataDemoNgoaiThat}
+/>
