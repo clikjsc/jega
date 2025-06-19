@@ -531,3 +531,232 @@ Có 2 phương pháp để sắp xếp các tấm ốp cách đều nhau trong *
 - **Mô tả**: Hướng dẫn chi tiết về cách lắp đặt đèn downlight một cách an toàn và hiệu quả, bao gồm các bước chuẩn bị, thực hiện và kiểm tra.
 - **Keywords**: cách lắp đèn downlight, lắp đặt đèn downlight, hướng dẫn lắp đèn downlight, đèn downlight âm trần, an toàn điện
 - **Link**: [Cách lắp đèn downlight](/docs/trung-tam-huong-dan/thiet-ke-xay-dung/den-chieu-sang/cach-lap-den-downlight)
+
+----------------------------------------
+
+TITLE_VI: Xử Lý Tấm Ốp Chuyển Sang Màu Đen Trong JEGA
+TITLE_EN: Fix Black Panels Issue in JEGA
+
+DESCRIPTION_VI: Hướng dẫn xử lý khi tấm ốp trần hoặc tường bị đen trong JEGA, tập trung vào hai nguyên nhân chính: thiếu ánh sáng và chồng chéo tấm ốp.
+DESCRIPTION_EN: Guide to fix black panels on ceiling or walls in JEGA, focusing on two main causes: insufficient lighting and overlapping panels.
+
+CATEGORY_PATH_VI: JEGA / Thiết kế xây dựng / Trần và tường / Tấm ốp trần
+CATEGORY_PATH_EN: JEGA / Construction Design / Ceiling and Wall / Panel Installation
+
+KEYWORDS_VI: tấm ốp đen, thiếu ánh sáng, chồng chéo tấm ốp, trần nhà, tường, JEGA, chế độ frame
+KEYWORDS_EN: black panels, insufficient lighting, overlapping panels, ceiling, wall, JEGA, frame mode
+
+USER_INTENT_VI: muốn sửa tấm ốp bị đen; tìm cách xử lý ánh sáng cho tấm ốp; cần khắc phục tấm ốp chồng chéo
+USER_INTENT_EN: want to fix black panels; looking for panel lighting solutions; need to fix overlapping panels
+
+JEGA_ARTICLE_ID: CD-PF-001
+RELATED_KB_IDS: CD-PF-002, CD-LG-001
+LOCAL_KB_PATH: /trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/tam-op-chuyen-sang-mau-den
+LAST_UPDATED_KB: 2025-06-19
+
+CONTENT_VI:
+---
+### Xử Lý Tấm Ốp Chuyển Sang Màu Đen
+
+**1. Thiếu Ánh Sáng:**
+- Thêm đèn bổ sung từ giao diện dựng hình mới
+- Bật chọn đèn chiếu sáng hai mặt để chiếu sáng trần nhà
+
+**2. Chồng Chéo Tấm Ốp:**
+- Nhấn `Ctrl + 2` để vào chế độ frame
+- Kiểm tra bóng đen nhấp nháy (dấu hiệu chồng chéo)
+- Xóa phần chồng chéo và thiết lập lại tấm ốp
+
+**Kiểm tra và Xác nhận:**
+- Đảm bảo đủ ánh sáng cho thiết kế
+- Sử dụng chế độ frame để phát hiện lỗi
+- Kiểm tra lại hiệu ứng sau khi sửa
+
+![Thêm đèn bổ sung](https://jega.vn/upload/photos/shares/jega/805.1.png)
+IMAGE_DESCRIPTION_VI_1: Giao diện JEGA hiển thị cách thêm đèn bổ sung từ giao diện dựng hình mới để xử lý tấm ốp bị đen do thiếu ánh sáng.
+
+![Kiểm tra chồng chéo](https://jega.vn/upload/photos/shares/jega/805.2.png)
+IMAGE_DESCRIPTION_VI_2: Màn hình JEGA trong chế độ frame, hiển thị cách kiểm tra và xử lý tấm ốp bị chồng chéo.
+---
+----------------------------------------
+
+TITLE_VI: Cách Chuyển Đổi Cạnh Thẳng Thành Cạnh Cong Trong Tùy Chỉnh Trần Nhà
+TITLE_EN: How to Convert Straight Edges to Curved Edges in Ceiling Customization
+
+DESCRIPTION_VI: Hướng dẫn cách chuyển đổi cạnh thẳng thành cạnh cong khi tùy chỉnh trần nhà trong JEGA, giúp việc vẽ các hình dạng hình học phức tạp trở nên thuận tiện hơn.
+DESCRIPTION_EN: Guide on converting straight edges to curved edges when customizing ceilings in JEGA, making it easier to draw complex geometric shapes.
+
+CATEGORY_PATH_VI: JEGA / Thiết kế xây dựng / Trần và tường / Tùy chỉnh trần nhà
+CATEGORY_PATH_EN: JEGA / Construction Design / Ceiling and Wall / Ceiling Customization
+
+KEYWORDS_VI: cạnh cong, cạnh thẳng, tùy chỉnh trần, thiết kế trần, JEGA, vẽ cong
+KEYWORDS_EN: curved edge, straight edge, ceiling customization, ceiling design, JEGA, curve drawing
+
+USER_INTENT_VI: muốn tạo cạnh cong từ cạnh thẳng; cần vẽ đường cong trên trần; tìm cách làm cong cạnh trần
+USER_INTENT_EN: want to create curved edges from straight edges; need to draw curves on ceiling; looking to curve ceiling edges
+
+JEGA_ARTICLE_ID: CD-CC-001
+RELATED_KB_IDS: CD-CC-002
+LOCAL_KB_PATH: /trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/cach-chuyen-doi-canh-thang-thanh-canh-cong-trong-tuy-chinh-tran-nha
+LAST_UPDATED_KB: 2025-06-19
+
+CONTENT_VI:
+---
+### Chuyển Đổi Cạnh Thẳng Thành Cạnh Cong Trong JEGA
+
+**Các bước thực hiện:**
+1. Vào giao diện tùy chỉnh trần nhà
+2. Chọn cạnh thẳng cần chuyển đổi
+3. Sử dụng công cụ chuyển đổi cạnh cong
+4. Điều chỉnh độ cong theo mong muốn
+5. Xác nhận thay đổi
+
+**Chú ý:**
+- Chức năng này giúp vẽ hình dạng phức tạp nhanh hơn
+- Có thể điều chỉnh độ cong linh hoạt
+- Áp dụng cho cả trần phẳng và trần nghiêng
+
+**Mẹo thiết kế:**
+- Kết hợp nhiều cạnh cong tạo hình dạng phức tạp
+- Lưu ý tính đối xứng nếu cần
+- Kiểm tra tổng thể sau khi chuyển đổi
+
+---
+----------------------------------------
+
+TITLE_VI: Cách Lắp Đèn Downlight Trong JEGA
+TITLE_EN: How to Install Downlights in JEGA
+
+DESCRIPTION_VI: Hướng dẫn chi tiết về cách lắp đặt đèn downlight trong JEGA bằng hai phương pháp: lắp đặt tự do và lắp đặt trong trần tùy chỉnh.
+DESCRIPTION_EN: Detailed guide on installing downlights in JEGA using two methods: free installation and custom ceiling installation.
+
+CATEGORY_PATH_VI: JEGA / Thiết kế xây dựng / Trần và tường / Lắp đặt đèn
+CATEGORY_PATH_EN: JEGA / Construction Design / Ceiling and Wall / Light Installation
+
+KEYWORDS_VI: đèn downlight, lắp đèn, trần tùy chỉnh, JEGA, chiếu sáng trần
+KEYWORDS_EN: downlight, light installation, custom ceiling, JEGA, ceiling lighting
+
+USER_INTENT_VI: muốn lắp đèn downlight; tìm cách đặt đèn trần; cần hướng dẫn lắp đèn
+USER_INTENT_EN: want to install downlights; looking for ceiling light placement; need lighting installation guide
+
+JEGA_ARTICLE_ID: CD-LI-001
+RELATED_KB_IDS: CD-CC-001, CD-LI-002
+LOCAL_KB_PATH: /trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/cach-lap-den-downlight
+LAST_UPDATED_KB: 2025-06-19
+
+CONTENT_VI:
+---
+### Lắp Đặt Đèn Downlight Trong JEGA
+
+**1. Phương pháp lắp đặt tự do:**
+- Truy cập Cloud material > Decoration > Spotlight
+- Chọn mẫu đèn phù hợp
+- Trong chế độ 3D/Walkthrough:
+  + Kéo và đặt đèn vào vị trí
+  + Giữ Shift để sao chép nhiều vị trí
+
+**2. Lắp đặt trong trần tùy chỉnh:**
+- Vào phần trần tùy chỉnh
+- Tạo lỗ cho đèn
+- Chọn và đặt đèn vào vị trí đã chuẩn bị
+
+**Lưu ý:**
+- Đảm bảo khoảng cách đều giữa các đèn
+- Kiểm tra hiệu ứng ánh sáng
+- Điều chỉnh độ cao phù hợp
+
+![Lựa chọn đèn downlight](https://jega.vn/upload/photos/shares/jega/774.1.png)
+IMAGE_DESCRIPTION_VI_1: Giao diện JEGA hiển thị cách chọn đèn downlight từ thư viện Cloud material.
+
+---
+----------------------------------------
+
+TITLE_VI: Cách Xóa Trần Nhà Trong JEGA
+TITLE_EN: How to Delete Ceiling in JEGA
+
+DESCRIPTION_VI: Hướng dẫn chi tiết các phương pháp để xóa trần nhà trong JEGA, bao gồm xóa trần thư viện và xóa trần tùy chỉnh.
+DESCRIPTION_EN: Detailed guide on methods to delete ceilings in JEGA, including library ceiling and custom ceiling deletion.
+
+CATEGORY_PATH_VI: JEGA / Thiết kế xây dựng / Trần và tường / Quản lý trần nhà
+CATEGORY_PATH_EN: JEGA / Construction Design / Ceiling and Wall / Ceiling Management
+
+KEYWORDS_VI: xóa trần, quản lý trần, trần thư viện, trần tùy chỉnh, JEGA
+KEYWORDS_EN: delete ceiling, ceiling management, library ceiling, custom ceiling, JEGA
+
+USER_INTENT_VI: muốn xóa trần nhà; cần hướng dẫn gỡ bỏ trần; tìm cách xóa trần cũ
+USER_INTENT_EN: want to delete ceiling; need guidance on removing ceiling; looking to remove old ceiling
+
+JEGA_ARTICLE_ID: CD-CM-001
+RELATED_KB_IDS: CD-CC-001
+LOCAL_KB_PATH: /trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/cach-de-xoa-tran-nha
+LAST_UPDATED_KB: 2025-06-19
+
+CONTENT_VI:
+---
+### Xóa Trần Nhà Trong JEGA
+
+**1. Xóa trần thư viện:**
+- Chọn trần cần xóa
+- Nhấn phím Delete hoặc chuột phải > Xóa
+- Xác nhận xóa trong hộp thoại
+
+**2. Xóa trần tùy chỉnh:**
+- Vào chế độ tùy chỉnh trần
+- Chọn phần trần muốn xóa
+- Sử dụng công cụ xóa hoặc phím Delete
+
+**Lưu ý quan trọng:**
+- Sao lưu thiết kế trước khi xóa
+- Kiểm tra ảnh hưởng đến các thành phần khác
+- Có thể hoàn tác nếu xóa nhầm
+
+![Xóa trần thư viện](https://jega.vn/upload/photos/shares/jega/811.1.png)
+IMAGE_DESCRIPTION_VI_1: Giao diện JEGA hiển thị cách xóa trần từ thư viện với các nút điều khiển được làm nổi bật.
+
+---
+----------------------------------------
+
+TITLE_VI: Xử Lý Tấm Ốp Chuyển Sang Màu Đen Trong JEGA
+TITLE_EN: Fix Black Panels Issue in JEGA
+
+DESCRIPTION_VI: Hướng dẫn xử lý khi tấm ốp trần hoặc tường bị đen trong JEGA, tập trung vào hai nguyên nhân chính: thiếu ánh sáng và chồng chéo tấm ốp.
+DESCRIPTION_EN: Guide to fix black panels on ceiling or walls in JEGA, focusing on two main causes: insufficient lighting and overlapping panels.
+
+CATEGORY_PATH_VI: JEGA / Thiết kế xây dựng / Trần và tường / Tấm ốp trần
+CATEGORY_PATH_EN: JEGA / Construction Design / Ceiling and Wall / Panel Installation
+
+KEYWORDS_VI: tấm ốp đen, thiếu ánh sáng, chồng chéo tấm ốp, trần nhà, tường, JEGA, chế độ frame
+KEYWORDS_EN: black panels, insufficient lighting, overlapping panels, ceiling, wall, JEGA, frame mode
+
+USER_INTENT_VI: muốn sửa tấm ốp bị đen; tìm cách xử lý ánh sáng cho tấm ốp; cần khắc phục tấm ốp chồng chéo
+USER_INTENT_EN: want to fix black panels; looking for panel lighting solutions; need to fix overlapping panels
+
+JEGA_ARTICLE_ID: CD-PF-001
+RELATED_KB_IDS: CD-PF-002, CD-LG-001
+LOCAL_KB_PATH: /trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/tam-op-chuyen-sang-mau-den
+LAST_UPDATED_KB: 2025-06-19
+
+CONTENT_VI:
+---
+### Xử Lý Tấm Ốp Chuyển Sang Màu Đen
+
+**1. Thiếu Ánh Sáng:**
+- Thêm đèn bổ sung từ giao diện dựng hình mới
+- Bật chọn đèn chiếu sáng hai mặt để chiếu sáng trần nhà
+
+**2. Chồng Chéo Tấm Ốp:**
+- Nhấn `Ctrl + 2` để vào chế độ frame
+- Kiểm tra bóng đen nhấp nháy (dấu hiệu chồng chéo)
+- Xóa phần chồng chéo và thiết lập lại tấm ốp
+
+**Kiểm tra và Xác nhận:**
+- Đảm bảo đủ ánh sáng cho thiết kế
+- Sử dụng chế độ frame để phát hiện lỗi
+- Kiểm tra lại hiệu ứng sau khi sửa
+
+![Thêm đèn bổ sung](https://jega.vn/upload/photos/shares/jega/805.1.png)
+IMAGE_DESCRIPTION_VI_1: Giao diện JEGA hiển thị cách thêm đèn bổ sung từ giao diện dựng hình mới để xử lý tấm ốp bị đen do thiếu ánh sáng.
+
+![Kiểm tra chồng chéo](https://jega.vn/upload/photos/shares/jega/805.2.png)
+IMAGE_DESCRIPTION_VI_2: Màn hình JEGA trong chế độ frame, hiển thị cách kiểm tra và xử lý tấm ốp bị chồng chéo.
+---
