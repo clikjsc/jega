@@ -62,11 +62,84 @@ const sidebars: SidebarsConfig = {
               className: 'sidebar-item-designbuild-floorplanedit'
             },
             {
+              type: 'category',
+              label: 'Trần và Tường',
+              className: 'sidebar-category-ceilingwall',
+              items: [
+                {
+                  type: 'doc',
+                  id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/cach-de-xoa-tran-nha',
+                  label: 'Cách xóa trần nhà',
+                  className: 'sidebar-item-ceiling-delete'
+                },
+                {
+                  type: 'doc',
+                  id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/cach-tang-kich-thuoc-tam-op-tran',
+                  label: 'Thay đổi kích thước tấm ốp',
+                  className: 'sidebar-item-ceiling-resize'
+                },
+                {
+                  type: 'doc',
+                  id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/cach-thay-doi-vat-lieu-tam-op-tran',
+                  label: 'Thay đổi vật liệu tấm ốp',
+                  className: 'sidebar-item-ceiling-material'
+                },
+                {
+                  type: 'doc',
+                  id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/cach-sap-xep-tam-op-cach-deu-nhau',
+                  label: 'Sắp xếp tấm ốp cách đều',
+                  className: 'sidebar-item-ceiling-arrange'
+                },
+                {
+                  type: 'doc',
+                  id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/cach-lap-den-downlight',
+                  label: 'Lắp đèn downlight',
+                  className: 'sidebar-item-ceiling-downlight'
+                },
+                {
+                  type: 'doc',
+                  id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/cach-di-chuyen-tam-op-tran',
+                  label: 'Di chuyển tấm ốp trần',
+                  className: 'sidebar-item-ceiling-move'
+                },
+                {
+                  type: 'doc',
+                  id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/cach-xoay-tam-op',
+                  label: 'Xoay tấm ốp trần',
+                  className: 'sidebar-item-ceiling-rotate'
+                },
+                {
+                  type: 'doc',
+                  id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/cach-chuyen-doi-canh-thang-thanh-canh-cong-trong-tuy-chinh-tran-nha',
+                  label: 'Chuyển cạnh thẳng thành cong',
+                  className: 'sidebar-item-ceiling-edge-curve'
+                },
+                {
+                  type: 'doc',
+                  id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/su-khac-biet-giua-op-cach-quang-va-op-lien-tuc',
+                  label: 'Ốp cách quãng & liên tục',
+                  className: 'sidebar-item-ceiling-spacing'
+                },
+                {
+                  type: 'doc',
+                  id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/tam-op-chuyen-sang-mau-den',
+                  label: 'Tấm ốp chuyển màu đen',
+                  className: 'sidebar-item-ceiling-color'
+                },
+                {
+                  type: 'doc',
+                  id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tran-va-tuong-tam-op-tran/tai-sao-khong-thay-den-spotlight-sau-khi-lap-tam-op-tran',
+                  label: 'Sửa lỗi đèn spotlight',
+                  className: 'sidebar-item-ceiling-spotlight'
+                }
+              ]
+            },
+            {
               type: 'doc',
               id: 'trung-tam-huong-dan/thiet-ke-xay-dung/tao-vach-ngan',
               label: 'Tạo vách ngăn',
               className: 'sidebar-item-designbuild-partition'
-            },
+            }
           ],
         },
         {
