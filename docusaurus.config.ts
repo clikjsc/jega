@@ -30,6 +30,21 @@ const config: Config = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
+  // Add global stylesheets
+  stylesheets: [
+    'https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css',
+  ],
+
+  // Add global scripts
+  scripts: [
+    'https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js',
+  ],
+
+  // Add client module to initialize the widget
+  clientModules: [
+    './src/clientModules/dfMessenger.ts',
+  ],
+
   i18n: {
     defaultLocale: 'vi',
     locales: ['vi', 'en'],
